@@ -2,13 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+@layer utilities {
+	@variants responsive {
+		.text-shadow {
+			text-shadow: 2px 2px 4px black;
+		}
+		.text-shadow-md {
+			text-shadow: 4px 4px 8px black;
+		}
+		.text-shadow-lg {
+			text-shadow: 15px 15px 30px black;
+		}
+		.text-shadow-none {
+			text-shadow: none;
+		}
+	}
+}
+
 body {
 	margin: 0;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-		sans-serif;
+	font-family: "Manrope", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+		"Droid Sans", "Helvetica Neue", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	background: url(assets/images/stars.webp) repeat,
+		linear-gradient(320deg, rgb(0, 0, 0), rgb(11, 21, 48));
+	color: white;
+	height: 100vh;
 }
 
 code {
