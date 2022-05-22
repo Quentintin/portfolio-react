@@ -1,26 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
+import BGImage from "./assets/images/bg-gradient.png";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<>
+			<img
+				src={BGImage}
+				alt="background"
+				className="absolute z-0 top-0 blur-3xl"
+			/>
+
+			<div className="z-10 absolute top0 w-full">
+				<Navbar />
+			</div>
+		</>
+	);
 }
 
 export default App;
