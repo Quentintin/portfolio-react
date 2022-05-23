@@ -1,5 +1,6 @@
 import { useState } from "react";
 import NavbarItem from "./NavbarItem";
+import { LinkedInButton, GithubButton } from "./SocialButton";
 
 const items = [
 	"Home",
@@ -14,9 +15,11 @@ export default function Navbar() {
 	const [selectedIndex, setSelectedIndex] = useState(0);
 
 	return (
-		<nav className=" h-24 flex justify-between items-center px-16 select-none tracking-wide">
-			<div className="flex-1">Quentin DESBOIS</div>
-			<div className="flex flex-4 items-center justify-center p-20">
+		<nav className=" h-24 flex justify-around items-center px-16 select-none tracking-wide">
+			<div className="  text-xl font-light tracking-normal text-white/80">
+				Quentin DESBOIS
+			</div>
+			<div className="flex-4 items-center justify-center p-20">
 				{items.map((item, index) => {
 					return (
 						<NavbarItem
@@ -28,7 +31,10 @@ export default function Navbar() {
 					);
 				})}
 			</div>
-			<div className="flex-1"></div>
+			<div className="text-right">
+				<LinkedInButton url="https://www.linkedin.com/in/quentin-desbois/" />
+				<GithubButton url="https://github.com/quentintin" />
+			</div>
 		</nav>
 	);
 }

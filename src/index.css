@@ -21,16 +21,20 @@
 	}
 }
 
+html {
+	min-height: 100%;
+}
+
 body {
 	margin: 0;
-	font-family: "Manrope", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
-		"Droid Sans", "Helvetica Neue", sans-serif;
+	font-family: "Manrope", "Roboto", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+
 	background: url(assets/images/stars.webp) repeat,
-		linear-gradient(320deg, rgb(0, 0, 0), rgb(11, 21, 48));
+		linear-gradient(0, rgb(0, 0, 0), rgb(11, 21, 48));
+
 	color: white;
-	height: 100vh;
 }
 
 code {

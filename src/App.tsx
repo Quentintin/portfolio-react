@@ -1,20 +1,23 @@
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
-import BGImage from "./assets/images/bg-gradient.png";
+import Intro from "./components/Section/Intro/Intro";
+import Experience from "./components/Section/Experience/Experience";
+import Skills from "./components/Section/Skills/Skills";
+import Projects from "./components/Section/Projects/Projects";
+import Education from "./components/Section/Education/Education";
+import Contact from "./components/Section/Contact/Contact";
 
 function App() {
 	return (
-		<>
-			<img
-				src={BGImage}
-				alt="background"
-				className="absolute z-0 top-0 blur-3xl"
-			/>
-
-			<div className="z-10 absolute top0 w-full">
-				<Navbar />
-			</div>
-		</>
+		<div className="bg-container min-w-full">
+			<Navbar />
+			<Intro />
+			<Experience />
+			<Skills />
+			<Projects />
+			<Education />
+			<Contact />
+		</div>
 	);
 }
 
