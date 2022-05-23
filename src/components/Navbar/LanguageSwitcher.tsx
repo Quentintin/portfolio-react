@@ -1,15 +1,18 @@
 import { useState } from "react";
+import i18n from "../../i18n";
 import FrenchFlag from "./../../assets/images/flags/fr.png";
 import UnitedKingdomFlag from "./../../assets/images/flags/uk.png";
 
-export default function LanguageSwitcher(props: {}) {
-	const [language, setlanguage] = useState("en");
+export default function LanguageSwitcher(props: { currentLanguage: string }) {
+	const [language, setlanguage] = useState(props.currentLanguage);
 
 	function toggleLanguage() {
 		if (language === "en") {
 			setlanguage("fr");
+			i18n.changeLanguage("fr");
 		} else {
 			setlanguage("en");
+			i18n.changeLanguage("en");
 		}
 	}
 

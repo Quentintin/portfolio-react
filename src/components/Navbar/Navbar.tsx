@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "./LanguageSwitcher";
 import NavbarItem from "./NavbarItem";
 import { LinkedInButton, GithubButton } from "./SocialButton";
@@ -14,6 +15,7 @@ const items = [
 
 export default function Navbar() {
 	const [selectedIndex, setSelectedIndex] = useState(0);
+	const { t, i18n } = useTranslation();
 
 	return (
 		<nav className="h-32 container mx-auto flex justify-between items-center select-none tracking-wide">
@@ -23,7 +25,7 @@ export default function Navbar() {
 						<NavbarItem
 							key={item.toLowerCase()}
 							handleClick={() => setSelectedIndex(index)}
-							title={item}
+							title={t(item)}
 							isActive={selectedIndex === index}
 						/>
 					);
@@ -33,7 +35,7 @@ export default function Navbar() {
 				<LinkedInButton url="https://www.linkedin.com/in/quentin-desbois/" />
 				<GithubButton url="https://github.com/quentintin" />
 				<VerticalDivider />
-				<LanguageSwitcher />
+				<LanguageSwitcher currentLanguage={i18n.language} />
 			</div>
 		</nav>
 	);
