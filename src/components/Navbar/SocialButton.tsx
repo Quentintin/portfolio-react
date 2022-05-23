@@ -5,7 +5,7 @@ export default function SocialButton(props: {
 	children: React.ReactNode;
 }) {
 	return (
-		<button className="bg-transparent text-white/70  hover:bg-white/20 hover:text-white duration-500 ease-in-out p-1 rounded-full m-3">
+		<button className="h-10 w-10 items-center justify-center flex bg-transparent text-white/70  hover:bg-white/20 hover:text-white duration-500 ease-in-out p-1 rounded-full m-3">
 			<a href={props.url} target="_blank" rel="noopener noreferrer">
 				{props.children}
 			</a>

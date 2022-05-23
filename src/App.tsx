@@ -11,12 +11,14 @@ function App() {
 	return (
 		<div className="bg-container min-w-full">
 			<Navbar />
-			<Intro />
-			<Experience />
-			<Skills />
-			<Projects />
-			<Education />
-			<Contact />
+			<div className="container mx-auto">
+				<Intro />
+				<Experience />
+				<Skills />
+				<Projects />
+				<Education />
+				<Contact />
+			</div>
 		</div>
 	);
 }

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import LanguageSwitcher from "./LanguageSwitcher";
 import NavbarItem from "./NavbarItem";
 import { LinkedInButton, GithubButton } from "./SocialButton";
 
@@ -15,11 +16,8 @@ export default function Navbar() {
 	const [selectedIndex, setSelectedIndex] = useState(0);
 
 	return (
-		<nav className=" h-24 flex justify-around items-center px-16 select-none tracking-wide">
-			<div className="  text-xl font-light tracking-normal text-white/80">
-				Quentin DESBOIS
-			</div>
-			<div className="flex-4 items-center justify-center p-20">
+		<nav className="h-32 container mx-auto flex justify-between items-center select-none tracking-wide">
+			<div className="flex items-center text-lg">
 				{items.map((item, index) => {
 					return (
 						<NavbarItem
@@ -31,10 +29,16 @@ export default function Navbar() {
 					);
 				})}
 			</div>
-			<div className="text-right">
+			<div className="flex items-center text-right">
 				<LinkedInButton url="https://www.linkedin.com/in/quentin-desbois/" />
 				<GithubButton url="https://github.com/quentintin" />
+				<VerticalDivider />
+				<LanguageSwitcher />
 			</div>
 		</nav>
 	);
+}
+
+function VerticalDivider() {
+	return <div className="bg-white/30 h-7 mx-5 rounded-full w-0.5" />;
 }
