@@ -1,0 +1,19 @@
+footer {
+	height: 30vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+
+	.planet {
+		user-select: none;
+		position: relative;
+		bottom: -40%;
+		width: 65vw;
+		height: 100%;
+		border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+		box-shadow: 0 -30px 60px rgba($color: rgb(0, 80, 170), $alpha: 0.5);
+		background-color: #77aacc;
+		border-bottom: 0;
+	}
+}

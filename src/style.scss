@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+html {
+	min-height: 100%;
+
+	body {
+		margin: 0;
+		font-family: "Manrope", "Roboto", sans-serif;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+
+		background: url(assets/images/stars.webp) repeat,
+			linear-gradient(0, rgb(0, 0, 0), rgb(11, 21, 48));
+
+		color: white;
+	}
+}

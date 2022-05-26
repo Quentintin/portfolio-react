@@ -1,8 +1,20 @@
 {
-	"Home": "Accueil",
-	"Experiences": "Expériences",
-	"Skills": "Compétences",
-	"Projects": "Projets",
-	"Education": "Formation",
-	"Contact": "Contact"
+	"home": {
+		"title": "Home"
+	},
+	"experience": {
+		"title": "Expérience"
+	},
+	"skills": {
+		"title": "Compétences"
+	},
+	"projects": {
+		"title": "Projets"
+	},
+	"education": {
+		"title": "Formation"
+	},
+	"contact": {
+		"title": "Contact"
+	}
 }

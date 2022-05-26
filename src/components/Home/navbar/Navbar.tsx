@@ -1,41 +1,48 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { HashLink } from "react-router-hash-link";
 import LanguageSwitcher from "./LanguageSwitcher";
 import NavbarItem from "./NavbarItem";
 import { LinkedInButton, GithubButton } from "./SocialButton";
 
-const items = [
-	"Home",
-	"Experiences",
-	"Skills",
-	"Projects",
-	"Education",
-	"Contact",
+interface NavigationItem {
+	id: string;
+	hash: string;
+}
+
+const navigation: Array<NavigationItem> = [
+	{ id: "home", hash: "#home" },
+	{ id: "experience", hash: "#experience" },
+	{ id: "skills", hash: "#skills" },
+	{ id: "projects", hash: "#projects" },
+	{ id: "education", hash: "#education" },
+	{ id: "contact", hash: "#contact" },
 ];
 
 export default function Navbar() {
-	const [selectedIndex, setSelectedIndex] = useState(0);
-	const { t, i18n } = useTranslation();
+	const [selectedId, setSelectedId] = useState("home");
+	const { t } = useTranslation();
 
 	return (
 		<nav className="h-32 container mx-auto flex justify-between items-center select-none tracking-wide">
 			<div className="flex items-center text-lg">
-				{items.map((item, index) => {
-					return (
+				{navigation.map((item) => (
+					<HashLink smooth to={item.hash}>
 						<NavbarItem
-							key={item.toLowerCase()}
-							handleClick={() => setSelectedIndex(index)}
-							title={t(item)}
-							isActive={selectedIndex === index}
+							key={item.id}
+							handleClick={() => setSelectedId(item.id)}
+							title={t(`${item.id}.title`)}
+							isActive={selectedId === item.id}
 						/>
-					);
-				})}
+					</HashLink>
+				))}
 			</div>
+
 			<div className="flex items-center text-right">
 				<LinkedInButton url="https://www.linkedin.com/in/quentin-desbois/" />
 				<GithubButton url="https://github.com/quentintin" />
 				<VerticalDivider />
-				<LanguageSwitcher currentLanguage={i18n.language} />
+				<LanguageSwitcher />
 			</div>
 		</nav>
 	);

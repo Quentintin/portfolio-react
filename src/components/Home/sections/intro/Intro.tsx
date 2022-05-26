@@ -1,8 +1,8 @@
 import moment from "moment";
-import Avatar from "../../../assets/images/avatar2.png";
-import CanadianFlag from "../../../assets/images/flags/ca.png";
+import Avatar from "./../../../../assets/images/avatar.png";
+import CanadianFlag from "./../../../../assets/images/flags/ca.png";
 
-import global from "../../../global";
+import global from "./../../../../config/global";
 
 export default function Intro() {
 	const yearsOfJSExperience = moment().diff(
@@ -10,7 +10,7 @@ export default function Intro() {
 		"years"
 	);
 	return (
-		<>
+		<div id="intro">
 			<div className="flex items-center justify-center my-20 mx-12">
 				<div className="flex-1 p-20">
 					<div className="text-4xl text-right font-thin text-white/60">
@@ -42,6 +42,6 @@ export default function Intro() {
 					<img src={Avatar} width="450" alt="Avatar" />
 				</div>
 			</div>
-		</>
+		</div>
 	);
 }

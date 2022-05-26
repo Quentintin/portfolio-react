@@ -1,8 +1,20 @@
 {
-	"Home": "Home",
-	"Experiences": "Experiences",
-	"Skills": "Skills",
-	"Projects": "Projects",
-	"Education": "Education",
-	"Contact": "Contact"
+	"home": {
+		"title": "Home"
+	},
+	"experience": {
+		"title": "Experience"
+	},
+	"skills": {
+		"title": "Skills"
+	},
+	"projects": {
+		"title": "Projects"
+	},
+	"education": {
+		"title": "Education"
+	},
+	"contact": {
+		"title": "Contact"
+	}
 }
