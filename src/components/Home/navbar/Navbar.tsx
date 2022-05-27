@@ -41,7 +41,7 @@ export default function Navbar() {
           </button>
         </div>
 
-        <div className="hidden bg-white xl:flex">
+        <div className="hidden xl:flex">
           {navigation.map((item) => (
             <HashLink smooth to={item.hash}>
               <NavbarItem
