@@ -1,20 +1,20 @@
 {
-	"home": {
-		"title": "Home"
-	},
-	"experience": {
-		"title": "Expérience"
-	},
-	"skills": {
-		"title": "Compétences"
-	},
-	"projects": {
-		"title": "Projets"
-	},
-	"education": {
-		"title": "Formation"
-	},
-	"contact": {
-		"title": "Contact"
-	}
+  "home": {
+    "title": "Home"
+  },
+  "experience": {
+    "title": "Expérience"
+  },
+  "skills": {
+    "title": "Compétences"
+  },
+  "projects": {
+    "title": "Projets"
+  },
+  "education": {
+    "title": "Études"
+  },
+  "contact": {
+    "title": "Contact"
+  }
 }

@@ -6,14 +6,14 @@ import ErrorPage from "./components/ErrorPage";
 import "./App.scss";
 
 function App() {
-	return (
-		<Suspense fallback="loading">
-			<Routes>
-				<Route path="/" element={<Home />} />
-				<Route path="*" element={<ErrorPage />} />
-			</Routes>
-		</Suspense>
-	);
+  return (
+    <Suspense fallback="loading">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="*" element={<ErrorPage />} />
+      </Routes>
+    </Suspense>
+  );
 }
 
 export default App;
