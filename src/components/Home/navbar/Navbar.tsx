@@ -1,10 +1,8 @@
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { HashLink } from 'react-router-hash-link';
 import LanguageSwitcher from './LanguageSwitcher';
 import NavbarItem from './NavbarItem';
 import { LinkedInButton, GithubButton } from './SocialButton';
-import './Navbar.scss';
 
 interface NavigationItem {
   id: string;
@@ -12,7 +10,7 @@ interface NavigationItem {
 }
 
 const navigation: Array<NavigationItem> = [
-  { id: 'home', hash: '#home' },
+  { id: 'intro', hash: '#intro' },
   { id: 'experience', hash: '#experience' },
   { id: 'skills', hash: '#skills' },
   { id: 'projects', hash: '#projects' },
@@ -21,7 +19,7 @@ const navigation: Array<NavigationItem> = [
 ];
 
 export default function Navbar() {
-  const [selectedId, setSelectedId] = useState('home');
+  const [selectedId, setSelectedId] = useState('intro');
   const [onTop, setOnTop] = useState(true);
   const { t } = useTranslation();
 
@@ -60,14 +58,13 @@ export default function Navbar() {
 
         <div className="hidden xl:flex">
           {navigation.map((item) => (
-            <HashLink smooth to={item.hash}>
-              <NavbarItem
-                key={item.id}
-                handleClick={() => setSelectedId(item.id)}
-                title={t(`${item.id}.title`)}
-                isActive={selectedId === item.id}
-              />
-            </HashLink>
+            <NavbarItem
+              key={item.id}
+              hash={item.hash}
+              handleClick={() => setSelectedId(item.id)}
+              title={t(`${item.id}.title`)}
+              isActive={selectedId === item.id}
+            />
           ))}
         </div>
       </div>
