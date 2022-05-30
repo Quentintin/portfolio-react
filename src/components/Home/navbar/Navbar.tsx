@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { HashLink } from 'react-router-hash-link';
 import LanguageSwitcher from './LanguageSwitcher';
@@ -22,10 +22,27 @@ const navigation: Array<NavigationItem> = [
 
 export default function Navbar() {
   const [selectedId, setSelectedId] = useState('home');
+  const [onTop, setOnTop] = useState(true);
   const { t } = useTranslation();
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      setOnTop(scrollTop < 50);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <nav className="mx-auto flex h-20 select-none items-center justify-between px-8 tracking-wide xl:container xl:h-32 xl:px-0">
+    <nav
+      className={`${
+        onTop ? '' : 'bg-black/90'
+      } fixed top-0 left-0 right-0 z-10 mx-auto flex select-none items-center justify-between px-8 tracking-wide transition-all duration-700 ease-in-out xl:container xl:my-5 xl:rounded-xl xl:px-4`}>
       <div>
         <div className="xl:hidden">
           <button
