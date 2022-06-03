@@ -11,7 +11,7 @@ function Home() {
   return (
     <>
       <Navbar />
-      <div className="container mx-auto grid pt-20">
+      <div id="sectionList" className="container mx-auto grid">
         <Intro />
         <Experience />
         <Skills />

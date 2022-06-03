@@ -4,11 +4,13 @@ import CanadianFlag from './../../../../assets/images/flags/ca.png';
 
 import global from './../../../../config/global';
 
+import { Element } from 'react-scroll';
+
 export default function Intro() {
   const yearsOfJSExperience = moment().diff(global.startOfJavascriptExperience, 'years');
   return (
-    <div id="intro">
-      <div className=" flex flex-col flex-wrap items-center justify-center xl:mt-20 xl:flex-row">
+    <Element name="intro">
+      <div className="mt-20 flex flex-col flex-wrap items-center justify-center xl:mt-40 xl:flex-row">
         <div className="flex-1 py-16 px-4">
           <div className="text-right text-4xl font-thin text-white/60">
             <div> Hello world, I am</div>
@@ -34,6 +36,6 @@ export default function Intro() {
           <img src={Avatar} alt="Avatar" className="w-96" />
         </div>
       </div>
-    </div>
+    </Element>
   );
 }

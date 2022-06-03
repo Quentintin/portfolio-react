@@ -4,33 +4,29 @@ import LanguageSwitcher from './LanguageSwitcher';
 import NavbarItem from './NavbarItem';
 import { LinkedInButton, GithubButton } from './SocialButton';
 
-interface NavigationItem {
-  id: string;
-  hash: string;
-}
-
-const navigation: Array<NavigationItem> = [
-  { id: 'intro', hash: '#intro' },
-  { id: 'experience', hash: '#experience' },
-  { id: 'skills', hash: '#skills' },
-  { id: 'projects', hash: '#projects' },
-  { id: 'education', hash: '#education' },
-  { id: 'contact', hash: '#contact' },
-];
-
 export default function Navbar() {
-  const [selectedId, setSelectedId] = useState('intro');
-  const [onTop, setOnTop] = useState(true);
+  const [isTop, setIsTop] = useState(true);
+  const [isBottom, setIsBottom] = useState<boolean>(false);
+
   const { t } = useTranslation();
 
+  const navigation = ['intro', 'experience', 'skills', 'projects', 'education', 'contact'];
+
   useEffect(() => {
-    const handleScroll = () => {
+    const handleScroll = (e: any) => {
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-      setOnTop(scrollTop < 50);
+      setIsTop(scrollTop < 50);
+
+      const scrollingElement = e.target.scrollingElement;
+
+      const isBottom =
+        scrollingElement.scrollHeight - scrollingElement.scrollTop ===
+        scrollingElement.clientHeight;
+
+      setIsBottom(isBottom);
     };
 
-    window.addEventListener('scroll', handleScroll);
-
+    window.addEventListener('scroll', handleScroll, { passive: true });
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
@@ -39,8 +35,8 @@ export default function Navbar() {
   return (
     <nav
       className={`${
-        onTop ? '' : 'bg-black/90'
-      } fixed top-0 left-0 right-0 z-10 mx-auto flex select-none items-center justify-between px-8 tracking-wide transition-all duration-700 ease-in-out xl:container xl:my-5 xl:rounded-xl xl:px-4`}>
+        isTop ? '' : 'bg-black/90'
+      } fixed top-0 left-0 right-0 z-10 mx-auto flex select-none items-center justify-between px-8 tracking-wide transition-all duration-700 ease-in-out xl:container xl:my-5 xl:rounded-xl xl:pr-4 xl:pl-1`}>
       <div>
         <div className="xl:hidden">
           <button
@@ -57,13 +53,13 @@ export default function Navbar() {
         </div>
 
         <div className="hidden xl:flex">
-          {navigation.map((item) => (
+          {navigation.map((key, index, arr) => (
             <NavbarItem
-              key={item.id}
-              hash={item.hash}
-              handleClick={() => setSelectedId(item.id)}
-              title={t(`${item.id}.title`)}
-              isActive={selectedId === item.id}
+              key={key}
+              id={key}
+              title={t(`${key}.title`)}
+              isBottom={isBottom}
+              isLast={index === arr.length - 1}
             />
           ))}
         </div>
