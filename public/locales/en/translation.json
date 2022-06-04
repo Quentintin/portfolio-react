@@ -1,4 +1,9 @@
 {
+  "navbar": {
+    "switch_to_fr": "French version",
+    "switch_to_en": "English version"
+  },
+
   "intro": {
     "title": "Home"
   },

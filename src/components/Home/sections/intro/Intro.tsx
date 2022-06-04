@@ -10,30 +10,34 @@ export default function Intro() {
   const yearsOfJSExperience = moment().diff(global.startOfJavascriptExperience, 'years');
   return (
     <Element name="intro">
-      <div className="mt-20 flex flex-col flex-wrap items-center justify-center xl:mt-40 xl:flex-row">
-        <div className="flex-1 py-16 px-4">
-          <div className="text-right text-4xl font-thin text-white/60">
+      <div className="mt-10 flex flex-col items-center justify-center px-4 sm:mt-10 lg:flex-row xl:mt-40">
+        <div className="flex-1 p-10 text-right">
+          <div className="text-xl font-thin text-white/60 sm:text-2xl md:text-3xl lg:text-4xl">
             <div> Hello world, I am</div>
-            <div className="text-right text-7xl font-black tracking-tighter text-white [text-shadow:0_0_8px_rgba(0,0,0,0.7)]">
+            <div className="text-4xl font-black tracking-tighter text-white sm:text-5xl  lg:text-6xl xl:text-7xl">
               Quentin Desbois
             </div>
           </div>
-          <div className="text-right text-3xl font-black uppercase text-yellow-500">
+          <div className="text-md font-black uppercase text-yellow-500 md:text-xl lg:text-2xl xl:text-3xl">
             Fullstack Javascript Developer
           </div>
-          <div className="mt-2 flex justify-end text-right text-2xl font-light text-white/80">
+          <div className="mt-4 flex justify-end text-lg font-light  text-white/80 sm:text-xl lg:text-2xl">
             <div className="flex max-w-xl items-center">
               <div className="font-bold tracking-tight">
                 Senior Dev <span className="font-thin">with </span>
                 {yearsOfJSExperience} years of XP
-                <span className="font-thin">, based in </span>Montréal
+                <div className="flex items-center">
+                  <div className="font-thin">
+                    currently based in <span className="font-bold">Montréal</span>
+                  </div>
+                  <img src={CanadianFlag} alt="canada_flag" className="ml-2 h-5 lg:h-7" />
+                </div>
               </div>
-              <img width="30px" src={CanadianFlag} alt="canada_flag" className="ml-1" />
             </div>
           </div>
         </div>
         <div className="flex-1">
-          <img src={Avatar} alt="Avatar" className="w-96" />
+          <img src={Avatar} alt="Avatar" className="w-48 sm:w-72 xl:w-96" />
         </div>
       </div>
     </Element>

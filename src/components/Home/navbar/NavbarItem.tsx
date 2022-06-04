@@ -5,12 +5,20 @@ interface IProps {
   title: string;
   isBottom: boolean;
   isLast: boolean;
+  handleClick: () => void;
 }
 
-export default function NavbarItem({ id, title, isBottom, isLast = false }: IProps) {
+export default function NavbarItem({
+  id,
+  title,
+  isBottom,
+  isLast = false,
+  handleClick,
+}: IProps) {
   return (
     <Link
       // Small hack to highlight lqst item in the navbar
+      onClick={() => handleClick()}
       activeClass={isBottom && !isLast ? '' : 'bg-white/10 text-white'}
       to={id}
       className="navbar-item mx-4 cursor-pointer rounded-xl px-4 py-2 font-semibold text-white/70 transition-all duration-300 ease-in hover:bg-white/5"
