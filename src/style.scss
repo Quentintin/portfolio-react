@@ -2,15 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Rajdhani:wght@300;400;500;600;700&display=swap');
 html {
   min-height: 100%;
   background: black;
 
   body {
     margin: 0;
-    font-family: 'Manrope', 'Roboto', sans-serif;
+    font-family: 'Manrope', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
@@ -18,5 +17,11 @@ html {
       linear-gradient(0, rgb(0, 0, 0), rgb(11, 21, 48));
 
     color: white;
+
+    h1 {
+      @apply text-3xl font-bold text-yellow-500 md:text-4xl xl:text-5xl;
+
+      font-family: 'Rajdhani', 'Manrope', sans-serif;
+    }
   }
 }
