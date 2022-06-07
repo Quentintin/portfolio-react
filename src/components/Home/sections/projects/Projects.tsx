@@ -6,8 +6,8 @@ export default function Projects() {
   const { t } = useTranslation();
   return (
     <Element name="projects" className="my-8">
-      <div className="container mx-auto py-10">
-        <div className=" body-font bg-black/30 p-6 text-gray-400">
+      <div className="container mx-auto py-10 ">
+        <div className=" body-font rounded-2xl bg-black/30 py-6 px-8 text-gray-400">
           <h1>{t('projects.title')}</h1>
           <div className="px-5 py-10 text-center ">
             <div className="mb-20 flex w-full flex-col">
