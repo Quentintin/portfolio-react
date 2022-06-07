@@ -4,14 +4,83 @@
     "switch_to_en": "Version anglaise"
   },
   "intro": {
-    "title": "Accueil"
+    "title": "Accueil",
+    "helloworld": "Hello World, je suis",
+    "role": "Développeur Fullstack Javascript Sénior",
+    "currently_based_in": "actuellement à"
   },
   "experience": {
     "title": "Expérience"
   },
   "skills": {
     "title": "Compétences",
-    "description": "Le métier de développeur web est une <strong>passion</strong>, mais c'est un métier <strong>difficile</strong>.<br/> Cela demande un <strong>apprentissage permanent</strong> et une <strong>remise en question</strong> constante. Je pense pouvoir me décrire ainsi :"
+    "description": "Le métier de développeur web est une <strong>passion</strong>, mais c'est un métier <strong>difficile</strong> qui demande un <strong>apprentissage permanent</strong> et une <strong>remise en question</strong> constante. Avec <strong>7 années d'expériences</strong>, les qualités suivantes sont celles qui me décrivent le mieux :",
+    "softs": {
+      "title": "Humaines",
+      "versatility": {
+        "title": "Polyvalent"
+      },
+      "knowledge": {
+        "title": "Autodidacte"
+      },
+      "creativity": {
+        "title": "Créatif"
+      },
+      "resilience": {
+        "title": "Résilient"
+      }
+    },
+    "technical": {
+      "title": "Techniques",
+      "javascript": {
+        "title": "Javascript",
+        "description": "ES2021"
+      },
+      "nodejs": {
+        "title": "NodeJS",
+        "description": "SailsJS, SocketIO, Express, Hapi, Joi, Mongoose"
+      },
+      "css": {
+        "title": "HTML5 / CSS3",
+        "description": "Bootstrap, TailwindCSS, Sass, Less"
+      },
+      "api": {
+        "title": "API",
+        "description": "Rest, GraphQL"
+      },
+      "react": {
+        "title": "ReactJS",
+        "description": " Hooks, Redux, Api Context, React Router, NextJS"
+      },
+      "cloud": {
+        "title": "Cloud",
+        "description": "AWS, GCP, Firebase"
+      },
+      "git": {
+        "title": "Git",
+        "description": "GitLab, GitHub, Bitbucket, and I use Gitkraken as GUI tool"
+      },
+      "iot": {
+        "title": "IoT",
+        "description": "Sigfox, LoRaWAN, NodeRed, Raspberry Pi, Arduino"
+      },
+      "figma": {
+        "title": "Figma",
+        "description": "UI/UX design, Photoshop"
+      },
+      "database": {
+        "title": "Database",
+        "description": "MongoDB, Redis, MySQL, MariaDB, Cassandra"
+      },
+      "docker": {
+        "title": "Docker",
+        "description": "Containers, Docker Compose, Docker File"
+      },
+      "typescript": {
+        "title": "TypeScript",
+        "description": ""
+      }
+    }
   },
   "projects": {
     "title": "Projets"

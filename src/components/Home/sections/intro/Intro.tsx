@@ -17,18 +17,18 @@ export default function Intro() {
           <div className="grid items-center gap-12 text-left md:grid-cols-2 md:text-right">
             <div className="mt-4 xl:mt-0">
               <h1 className="mb-4 text-3xl tracking-tight text-white/60 md:text-4xl xl:text-5xl">
-                Hello world, I'm
+                {t('intro.helloworld')}
                 <br />
                 <span className="text-5xl text-yellow-500 md:text-6xl xl:text-7xl">
                   Quentin Desbois
                 </span>
               </h1>
               <div className=" tracking-wide text-white md:text-xl lg:text-xl xl:text-2xl">
-                Fullstack Javascript Senior Developer
+                {t('intro.role')}
               </div>
               <div className="flex items-center md:justify-end">
                 <div className="font-thin">
-                  currently based in <span className="font-bold">Montréal</span>
+                  {t('intro.currently_based_in')} <span className="font-bold">Montréal</span>
                 </div>
                 <img src={CanadianFlag} alt="canada_flag" className="ml-2 h-5 lg:h-7" />
               </div>
