@@ -47,7 +47,7 @@ export function TechSkillItem({
       <span className={`flex-shrink-0 rounded-xl bg-white/20 p-3 text-2xl`}>{icon}</span>
 
       <div className="ml-4">
-        <h2 className="text-lg font-bold">{title}</h2>
+        <h4 className="text-md font-bold">{title}</h4>
 
         <p className="mt-1 text-sm text-white/60">{description}</p>
       </div>
