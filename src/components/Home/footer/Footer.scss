@@ -1,0 +1,32 @@
+footer {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+
+  img {
+    transition: all 1s ease-in-out;
+    transform: translateY(40px);
+    animation: infinite 20s moon-moove ease-in-out;
+  }
+
+  .back {
+    height: 160px;
+    background: linear-gradient(0, black, #00000000);
+    width: 100%;
+  }
+  .footer-text {
+    font-family: 'Rajdhani', sans-serif;
+  }
+}
+
+@keyframes moon-moove {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(20px) scale(1.1) rotate3d(0, 10, 0, 5deg);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}

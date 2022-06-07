@@ -1,8 +1,94 @@
 {
-	"Home": "Home",
-	"Experiences": "Experiences",
-	"Skills": "Skills",
-	"Projects": "Projects",
-	"Education": "Education",
-	"Contact": "Contact"
+  "navbar": {
+    "switch_to_fr": "French version",
+    "switch_to_en": "English version"
+  },
+
+  "intro": {
+    "title": "Home"
+  },
+  "experience": {
+    "title": "Experience"
+  },
+  "skills": {
+    "title": "Skills",
+    "description": "7 ans d'XP + Soft skills = Polyvalence, Créativité, Résilience, Soif de connaissance",
+    "softs": {
+      "versatility": {
+        "title": "Verstatility",
+        "description": "Blablabls"
+      },
+      "knowledge": {
+        "title": "Thirst of knowledge",
+        "description": "Blablabls"
+      },
+      "creativity": {
+        "title": "Creativity",
+        "description": "Blablabls"
+      },
+      "resilience": {
+        "title": "Resilience",
+        "description": "Blablabls"
+      }
+    },
+    "technologies": {
+      "javascript": {
+        "title": "Javascript",
+        "description": "ES2021"
+      },
+      "nodejs": {
+        "title": "NodeJS",
+        "description": "SailsJS, SocketIO, Express, Hapi, Joi, Mongoose"
+      },
+      "css": {
+        "title": "HTML5 / CSS3",
+        "description": "Bootstrap, TailwindCSS, Sass, Less"
+      },
+      "api": {
+        "title": "API",
+        "description": "Rest, GraphQL"
+      },
+      "react": {
+        "title": "ReactJS",
+        "description": " Hooks, Redux, Api Context, React Router, NextJS"
+      },
+      "cloud": {
+        "title": "Cloud",
+        "description": "AWS, GCP, Firebase"
+      },
+      "git": {
+        "title": "Git",
+        "description": "GitLab, GitHub, Bitbucket, and I use Gitkraken as GUI tool"
+      },
+      "iot": {
+        "title": "IoT",
+        "description": "Sigfox, LoRaWAN, NodeRed, Raspberry Pi, Arduino"
+      },
+      "figma": {
+        "title": "Figma",
+        "description": "UI/UX design, Photoshop"
+      },
+      "database": {
+        "title": "Database",
+        "description": "MongoDB, Redis, MySQL, MariaDB, Cassandra"
+      },
+      "docker": {
+        "title": "Docker",
+        "description": "Containers, Docker Compose, Docker File"
+      },
+      "typescript": {
+        "title": "TypeScript",
+        "description": ""
+      }
+    }
+  },
+  "projects": {
+    "title": "Projects"
+  },
+  "education": {
+    "title": "Education"
+  },
+  "contact": {
+    "title": "Contact"
+  }
 }
