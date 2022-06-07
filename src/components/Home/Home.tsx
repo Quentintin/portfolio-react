@@ -24,36 +24,42 @@ function Home() {
         <div
           data-aos="fade-down"
           data-aos-duration="1000"
+          data-aos-once={true}
           data-aos-anchor-placement="top-center">
           <Intro />
         </div>
         <div
           data-aos="fade-down"
           data-aos-duration="1000"
-          data-aos-anchor-placement="top-center">
+          data-aos-once={true}
+          data-aos-anchor-placement="top-bottom">
           <Skills />
         </div>
         <div
           data-aos="zoom-in-up"
           data-aos-duration="800"
+          data-aos-once={true}
           data-aos-anchor-placement="center-bottom">
           <Experience />
         </div>
         <div
           data-aos="zoom-in-up"
           data-aos-duration="800"
+          data-aos-once={true}
           data-aos-anchor-placement="center-bottom">
           <Projects />
         </div>
         <div
           data-aos="zoom-in-up"
           data-aos-duration="800"
+          data-aos-once={true}
           data-aos-anchor-placement="center-bottom">
           <Education />
         </div>
         <div
           data-aos="zoom-in-up"
           data-aos-duration="800"
+          data-aos-once={true}
           data-aos-anchor-placement="center-bottom">
           <Contact />
         </div>
