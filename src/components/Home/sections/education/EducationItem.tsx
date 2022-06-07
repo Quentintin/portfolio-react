@@ -6,14 +6,11 @@ export default function EducationItem() {
       <span className="absolute -ml-4 flex h-8 w-8 items-center justify-center rounded-full bg-violet-500 text-xl shadow-sm ring-8 ring-gray-800">
         <IoSchool />
       </span>
-      <div className="ml-20">
+      <div className="ml-10 xl:ml-20">
         <div className="mb-2 flex items-center">
           <h3 className=" mr-4 ">Master</h3>
           <h4 className="flex items-center text-lg font-semibold text-gray-900 dark:text-white">
             Electronics, electrical energy, automation
-            <span className="mx-2 mt-1 rounded-md bg-white/20 py-0.5 px-1.5 text-xs text-white">
-              EEATS
-            </span>
           </h4>
         </div>
 

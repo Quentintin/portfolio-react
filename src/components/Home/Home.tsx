@@ -20,7 +20,7 @@ function Home() {
   return (
     <>
       <Navbar />
-      <div className="grid">
+      <div className="grid px-4">
         <div
           data-aos="fade-down"
           data-aos-duration="1000"
