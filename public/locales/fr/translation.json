@@ -10,7 +10,8 @@
     "title": "Expérience"
   },
   "skills": {
-    "title": "Compétences"
+    "title": "Compétences",
+    "description": "Le métier de développeur web est une <strong>passion</strong>, mais c'est un métier <strong>difficile</strong>.<br/> Cela demande un <strong>apprentissage permanent</strong> et une <strong>remise en question</strong> constante. Je pense pouvoir me décrire ainsi :"
   },
   "projects": {
     "title": "Projets"
