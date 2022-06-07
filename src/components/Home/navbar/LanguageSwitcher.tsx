@@ -15,7 +15,7 @@ export default function LanguageSwitcher() {
     <>
       <button
         onClick={() => toggleLanguage()}
-        className="mx-1 my-2.5 flex  w-9 items-center justify-center rounded-full bg-transparent p-2 text-white/80  duration-500 ease-in-out hover:bg-white/20 hover:text-white xl:m-3 xl:w-11">
+        className="mx-1 my-2.5 flex  w-9 items-center  justify-center rounded-full bg-transparent p-2 text-white/80 duration-500  ease-in-out hover:scale-125  hover:text-white xl:m-3 xl:w-11">
         {i18n.language === 'fr' ? (
           <img src={FrenchFlag} alt="French flag" />
         ) : (

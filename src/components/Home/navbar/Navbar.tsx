@@ -11,7 +11,7 @@ export default function Navbar() {
 
   const { t } = useTranslation();
 
-  const navigation = ['intro', 'experience', 'skills', 'projects', 'education', 'contact'];
+  const navigation = ['intro', 'skills', 'experience', 'projects', 'education', 'contact'];
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -68,7 +68,7 @@ export default function Navbar() {
               id={key}
               title={t(`${key}.title`)}
               isBottom={isBottom}
-              handleClick={() => toggleMenu()}
+              handleClick={() => setIsMenuOpen(false)}
               isLast={index === arr.length - 1}
             />
           ))}
