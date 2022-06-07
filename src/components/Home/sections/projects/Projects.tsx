@@ -28,12 +28,11 @@ export default function Projects() {
                   <img
                     src="https://mdbootstrap.com/img/new/standard/city/041.jpg"
                     className="w-full"
+                    alt="img"
                   />
-                  <a href="#!">
-                    <div
-                      className="mask absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
-                      style={{ backgroundColor: 'rgba(251, 251, 251, 0.2)' }}></div>
-                  </a>
+                  <div
+                    className="mask absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+                    style={{ backgroundColor: 'rgba(251, 251, 251, 0.2)' }}></div>
                 </div>
                 <h5 className="mb-3 text-lg font-bold">Hollywood Exhibition</h5>
                 <div className="mb-3 flex items-center justify-center text-sm font-medium text-red-600 lg:justify-start">
@@ -61,12 +60,11 @@ export default function Projects() {
                   <img
                     src="https://mdbootstrap.com/img/new/standard/city/045.jpg"
                     className="w-full"
+                    alt="img"
                   />
-                  <a href="#!">
-                    <div
-                      className="mask absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
-                      style={{ backgroundColor: 'rgba(251, 251, 251, 0.2)' }}></div>
-                  </a>
+                  <div
+                    className="mask absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+                    style={{ backgroundColor: 'rgba(251, 251, 251, 0.2)' }}></div>
                 </div>
 
                 <h5 className="mb-3 text-lg font-bold">Big Apple</h5>
@@ -95,12 +93,11 @@ export default function Projects() {
                   <img
                     src="https://mdbootstrap.com/img/new/standard/city/047.jpg"
                     className="w-full"
+                    alt="img"
                   />
-                  <a href="#!">
-                    <div
-                      className="mask absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
-                      style={{ backgroundColor: 'rgba(251, 251, 251, 0.2)' }}></div>
-                  </a>
+                  <div
+                    className="mask absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+                    style={{ backgroundColor: 'rgba(251, 251, 251, 0.2)' }}></div>
                 </div>
 
                 <h5 className="mb-3 text-lg font-bold">Sun City</h5>

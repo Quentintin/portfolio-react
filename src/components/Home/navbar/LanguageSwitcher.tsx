@@ -1,12 +1,9 @@
 import i18n from '../../../config/i18n';
-import { useTranslation } from 'react-i18next';
 
 import FrenchFlag from './../../../assets/images/flags/fr.png';
 import UnitedKingdomFlag from './../../../assets/images/flags/uk.png';
 
 export default function LanguageSwitcher() {
-  const { t } = useTranslation();
-
   const toggleLanguage = () => {
     i18n.changeLanguage(i18n.language === 'en' ? 'fr' : 'en');
   };
