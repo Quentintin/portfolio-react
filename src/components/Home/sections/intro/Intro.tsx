@@ -1,4 +1,3 @@
-import moment from 'moment';
 import Avatar from './../../../../assets/images/avatar.png';
 import CanadianFlag from './../../../../assets/images/flags/ca.png';
 
@@ -7,7 +6,6 @@ import global from './../../../../config/global';
 import { Element } from 'react-scroll';
 
 export default function Intro() {
-  const yearsOfJSExperience = moment().diff(global.startOfJavascriptExperience, 'years');
   return (
     <Element name="intro">
       <div className="mt-10 flex flex-col items-center justify-center px-4 sm:mt-10 lg:flex-row xl:mt-40">
@@ -25,7 +23,7 @@ export default function Intro() {
             <div className="flex max-w-xl items-center">
               <div className="font-bold tracking-tight">
                 Senior Dev <span className="font-thin">with </span>
-                {yearsOfJSExperience} years of XP
+                years of XP
                 <div className="flex items-center">
                   <div className="font-thin">
                     currently based in <span className="font-bold">Montréal</span>

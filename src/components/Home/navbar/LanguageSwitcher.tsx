@@ -4,31 +4,11 @@ import { useTranslation } from 'react-i18next';
 import FrenchFlag from './../../../assets/images/flags/fr.png';
 import UnitedKingdomFlag from './../../../assets/images/flags/uk.png';
 
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-
 export default function LanguageSwitcher() {
   const { t } = useTranslation();
 
   const toggleLanguage = () => {
     i18n.changeLanguage(i18n.language === 'en' ? 'fr' : 'en');
-
-    /*toast(
-      i18n.language === 'fr' ? (
-        <div className="bg-red">{t('navbar.switch_to_fr')}</div>
-      ) : (
-        t('navbar.switch_to_en')
-      ),
-      {
-        type: 'info',
-        position: 'bottom-center',
-        closeButton: false,
-        autoClose: 600,
-        hideProgressBar: true,
-        closeOnClick: true,
-        progress: undefined,
-      },
-    );*/
   };
 
   return (
@@ -42,7 +22,6 @@ export default function LanguageSwitcher() {
           <img src={UnitedKingdomFlag} alt="English flag" />
         )}
       </button>
-      <ToastContainer limit={1} theme={'dark'} />
     </>
   );
 }

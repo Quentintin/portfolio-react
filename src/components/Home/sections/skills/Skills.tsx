@@ -1,5 +1,4 @@
 import { HiBadgeCheck, HiChip } from 'react-icons/hi';
-import { skills } from '../../../../assets/data.js';
 import { Element } from 'react-scroll';
 
 export default function Skills() {
@@ -17,7 +16,7 @@ export default function Skills() {
           </p>
         </div>
         <div className="-mx-2 flex flex-wrap sm:mx-auto sm:mb-2 lg:w-4/5">
-          {skills.map((skill) => (
+          {[].map((skill) => (
             <div key={skill} className="w-full p-2 sm:w-1/2">
               <div className="flex h-full items-center rounded bg-white/10 p-4">
                 <HiBadgeCheck className="mr-4 h-6 w-6 flex-shrink-0 text-green-400" />
