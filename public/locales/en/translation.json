@@ -5,33 +5,34 @@
   },
 
   "intro": {
-    "title": "Home"
+    "title": "Home",
+    "helloworld": "Hello World, I'm",
+    "role": "Fullstack Javascript Senior Developer",
+    "currently_based_in": "currently based in"
   },
   "experience": {
     "title": "Experience"
   },
   "skills": {
     "title": "Skills",
-    "description": "7 ans d'XP + Soft skills = Polyvalence, Créativité, Résilience, Soif de connaissance",
+    "description": "The job of web developer is a <strong>passion</strong>, but it is a <strong>difficult</strong> job that requires <strong>lifelong learning</strong> and a permanent <strong>questioning</strong>. With <strong>7 years of experience</strong>, following qualities are the ones describing me the best :",
     "softs": {
+      "title": "Soft",
       "versatility": {
-        "title": "Verstatility",
-        "description": "Blablabls"
+        "title": "Verstatility"
       },
       "knowledge": {
-        "title": "Thirst of knowledge",
-        "description": "Blablabls"
+        "title": "Thirst of knowledge"
       },
       "creativity": {
-        "title": "Creativity",
-        "description": "Blablabls"
+        "title": "Creativity"
       },
       "resilience": {
-        "title": "Resilience",
-        "description": "Blablabls"
+        "title": "Resilience"
       }
     },
-    "technologies": {
+    "technical": {
+      "title": "Technical",
       "javascript": {
         "title": "Javascript",
         "description": "ES2021"
