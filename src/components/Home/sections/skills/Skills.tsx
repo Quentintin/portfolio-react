@@ -13,35 +13,35 @@ export default function Skills() {
       <div className="container mx-auto py-10">
         <section className="rounded-2xl bg-black/30 text-white">
           <div className="px-4 py-8 sm:px-6 lg:px-8">
-            <div className="max-w-4xl">
-              <h1>{t('skills.title')}</h1>
-              <p className="my-4 text-white/80">
-                <Trans i18nKey="skills.description"></Trans>
-              </p>
-            </div>
-            <div className="my-10 text-center">
-              <h2>• SOFT •</h2>
-            </div>
-            <div className="my-10 grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-12 lg:grid-cols-4">
-              {global.soft_skills.map((skill) => (
-                <SoftSkillIten
-                  key={skill.id}
-                  title={t(`skills.softs.${skill.id}.title`)}
-                  icon={skill.icon}
-                  color={skill.color}
-                />
-              ))}
+            <h1>{t('skills.title')}</h1>
+            <div className="my-5 grid grid-cols-1 gap-2 lg:grid-cols-2 lg:gap-6">
+              <div className="">
+                <h2>{t('skills.softs.title')}</h2>
+                <p className="text-white/80">
+                  <Trans i18nKey="skills.description"></Trans>
+                </p>
+              </div>
+              <div>
+                <div className="grid grid-cols-2 gap-4 sm:grid-cols-4 lg:gap-6">
+                  {global.soft_skills.map((skill) => (
+                    <SoftSkillIten
+                      key={skill.id}
+                      title={t(`skills.softs.${skill.id}.title`)}
+                      icon={skill.icon}
+                      color={skill.color}
+                    />
+                  ))}
+                </div>
+              </div>
             </div>
 
-            <div className="mt-15 mb-10 text-center">
-              <h2>• TECHNICAL •</h2>
-            </div>
-            <div className=" grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-12 lg:grid-cols-3">
+            <h2>{t('skills.technical.title')}</h2>
+            <div className="mt-4 grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-12 lg:grid-cols-3">
               {global.tech_skills.map((skill) => (
                 <TechSkillItem
                   key={skill.id}
-                  title={t(`skills.technologies.${skill.id}.title`)}
-                  desc={t(`skills.technologies.${skill.id}.description`)}
+                  title={t(`skills.technical.${skill.id}.title`)}
+                  desc={t(`skills.technical.${skill.id}.description`)}
                   icon={skill.icon}
                   color={skill.color}
                 />
