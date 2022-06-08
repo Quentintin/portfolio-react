@@ -1,7 +1,6 @@
 import { useTranslation } from 'react-i18next';
 
 import { Element } from 'react-scroll';
-import SolarSystem from './SolarSystem';
 import Avatar from './../../../../assets/images/avatar.png';
 import CanadianFlag from './../../../../assets/images/flags/ca.png';
 
@@ -9,9 +8,6 @@ export default function Intro() {
   const { t } = useTranslation();
   return (
     <Element name="intro">
-      <div className="hidden xl:block">
-        <SolarSystem />
-      </div>
       <div className="relative px-6 py-28 text-center text-white/60 md:px-12 lg:mt-32 lg:text-left">
         <div className="container mx-auto font-bold xl:px-32">
           <div className="grid items-center gap-12 text-left md:grid-cols-2 md:text-right">
