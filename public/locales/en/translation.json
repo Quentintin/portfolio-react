@@ -35,11 +35,11 @@
       "title": "Technical",
       "javascript": {
         "title": "Javascript",
-        "description": "ES2021"
+        "description": "ES2021, ESLint, Prettier"
       },
       "nodejs": {
         "title": "NodeJS",
-        "description": "SailsJS, SocketIO, Express, Hapi, Joi, Mongoose"
+        "description": "SailsJS, SocketIO, Express, Hapi, Joi, Mongoose, PM2"
       },
       "css": {
         "title": "HTML5 / CSS3",
@@ -47,7 +47,7 @@
       },
       "api": {
         "title": "API",
-        "description": "Rest, GraphQL"
+        "description": "RESTful, GraphQL"
       },
       "react": {
         "title": "ReactJS",
@@ -63,7 +63,7 @@
       },
       "iot": {
         "title": "IoT",
-        "description": "Sigfox, LoRaWAN, NodeRed, Raspberry Pi, Arduino"
+        "description": "Sigfox, LoRaWAN, NodeRed, MQTT, RPi"
       },
       "figma": {
         "title": "Figma",
@@ -75,7 +75,7 @@
       },
       "docker": {
         "title": "Docker",
-        "description": "Containers, Docker Compose, Docker File"
+        "description": "Containers, Docker Compose, Dockerfile"
       },
       "typescript": {
         "title": "TypeScript",

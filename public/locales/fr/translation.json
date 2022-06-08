@@ -32,53 +32,9 @@
     },
     "technical": {
       "title": "Techniques",
-      "javascript": {
-        "title": "Javascript",
-        "description": "ES2021"
-      },
-      "nodejs": {
-        "title": "NodeJS",
-        "description": "SailsJS, SocketIO, Express, Hapi, Joi, Mongoose"
-      },
-      "css": {
-        "title": "HTML5 / CSS3",
-        "description": "Bootstrap, TailwindCSS, Sass, Less"
-      },
-      "api": {
-        "title": "API",
-        "description": "Rest, GraphQL"
-      },
-      "react": {
-        "title": "ReactJS",
-        "description": " Hooks, Redux, Api Context, React Router, NextJS"
-      },
-      "cloud": {
-        "title": "Cloud",
-        "description": "AWS, GCP, Firebase"
-      },
-      "git": {
-        "title": "Git",
-        "description": "GitLab, GitHub, Bitbucket, and I use Gitkraken as GUI tool"
-      },
-      "iot": {
-        "title": "IoT",
-        "description": "Sigfox, LoRaWAN, NodeRed, Raspberry Pi, Arduino"
-      },
-      "figma": {
-        "title": "Figma",
-        "description": "UI/UX design, Photoshop"
-      },
+
       "database": {
-        "title": "Database",
-        "description": "MongoDB, Redis, MySQL, MariaDB, Cassandra"
-      },
-      "docker": {
-        "title": "Docker",
-        "description": "Containers, Docker Compose, Docker File"
-      },
-      "typescript": {
-        "title": "TypeScript",
-        "description": ""
+        "title": "Base de données"
       }
     }
   },
