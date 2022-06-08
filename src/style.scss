@@ -13,9 +13,7 @@ html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
-    background: url(assets/images/stars.webp) repeat,
-      linear-gradient(0, rgb(0, 0, 0), rgb(11, 21, 48));
-
+    background: radial-gradient(ellipse at top, rgb(10, 24, 49) 0%, #000000 100%);
     color: white;
 
     h1,

@@ -41,7 +41,7 @@ export default function Navbar() {
     <nav
       className={`${
         !isTop || isMenuOpen ? 'bg-black xl:bg-black/90' : ''
-      } fixed right-0 top-0 left-0 z-10 mx-auto flex select-none items-center justify-between px-2 tracking-wide text-white/70  duration-700 ease-in-out xl:container xl:my-5 xl:rounded-xl xl:pr-4 xl:pl-1`}>
+      } fixed right-0 top-0 left-0 z-10 mx-auto flex select-none items-center justify-between px-2 tracking-wide text-white/70 duration-700 ease-in-out xl:container xl:my-5 xl:rounded-xl xl:pr-4 xl:pl-1`}>
       <div className="flex">
         <div className="xl:hidden">
           <button
