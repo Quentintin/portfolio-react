@@ -1,0 +1,47 @@
+@function multiple-box-shadow($n, $opacity) {
+  $height: 3840;
+  $width: 6000;
+  $value: '#{random($height)}px #{random($width)}px rgba(255, 255, 255, #{$opacity})';
+  @for $i from 2 through $n {
+    $value: '#{$value} , #{random($height)}px #{random($width)}px  rgba(255, 255, 255, #{$opacity})';
+  }
+
+  @return unquote($value);
+}
+
+$shadows-medium: multiple-box-shadow(800, 0.3);
+$shadows-big: multiple-box-shadow(400, 0.5);
+
+#stars-medium {
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background: transparent;
+  box-shadow: $shadows-medium;
+
+  &:after {
+    content: ' ';
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background: transparent;
+    box-shadow: $shadows-medium;
+  }
+}
+
+#stars-large {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: transparent;
+  box-shadow: $shadows-big;
+
+  &:after {
+    content: ' ';
+    width: 3px;
+    border-radius: 50%;
+    height: 3px;
+    background: transparent;
+    box-shadow: $shadows-big;
+  }
+}
