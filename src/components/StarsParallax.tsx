@@ -14,13 +14,13 @@ export default function StarsParallax() {
         style={{
           transform: `translateY(${
             scrollPosition / 1.5 - mousePosition.y / 120
-          }px)  translatex(-${mousePosition.x / 200}px)`,
+          }px)  translatex(-${mousePosition.x / 400}px)`,
         }}></div>
       <div
         id="stars-large"
         style={{
           transform: `translateY(${scrollPosition / 3 - mousePosition.y / 40}px) translatex(-${
-            mousePosition.x / 80
+            mousePosition.x / 160
           }px)`,
         }}></div>
     </>

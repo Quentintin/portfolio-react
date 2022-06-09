@@ -1,0 +1,48 @@
+.avatar {
+  animation: floating 45s infinite cubic-bezier(0.23, 0.01, 0.76, 1);
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0) rotate(0deg) scale(1);
+  }
+  10% {
+    transform: translate(#{random(10)-10}px, #{random(20) - 10}px) rotate(#{random(10)-5}deg)
+      scale(1 + random(10) / 100);
+  }
+  20% {
+    transform: translate(#{random(10)-10}px, #{random(20) - 10}px) rotate(#{random(10)-5}deg)
+      scale(1 + random(10) / 100);
+  }
+  30% {
+    transform: translate(#{random(10)-10}px, #{random(20) - 10}px) rotate(#{random(10)-5}deg)
+      scale(1 + random(10) / 100);
+  }
+  40% {
+    transform: translate(#{random(10)-10}px, #{random(20) - 10}px) rotate(#{random(10)-5}deg)
+      scale(1 + random(10) / 100);
+  }
+  50% {
+    transform: translate(#{random(10)-10}px, #{random(20) - 10}px) rotate(#{random(10)-5}deg)
+      scale(1 + random(10) / 100);
+  }
+  60% {
+    transform: translate(#{random(10)-10}px, #{random(20) - 10}px) rotate(#{random(10)-5}deg)
+      scale(1 + random(10) / 100);
+  }
+  70% {
+    transform: translate(#{random(10)-10}px, #{random(20) - 10}px) rotate(#{random(10)-5}deg)
+      scale(1 + random(10) / 100);
+  }
+  80% {
+    transform: translate(#{random(10)-10}px, #{random(20) - 10}px) rotate(#{random(10)-5}deg)
+      scale(1 + random(10) / 100);
+  }
+  90% {
+    transform: translate(#{random(10)-10}px, #{random(20) - 10}px) rotate(#{random(10)-5}deg)
+      scale(1 + random(10) / 100);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg) scale(1);
+  }
+}
