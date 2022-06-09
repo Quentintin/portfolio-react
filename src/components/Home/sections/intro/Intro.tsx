@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 
 import { Element } from 'react-scroll';
 import Avatar from './../../../../assets/images/spaceman_avatar.webp';
-import CanadianFlag from './../../../../assets/images/flags/ca.png';
+import CanadianFlag from './../../../../assets/images/flags/ca.webp';
 
 import './Intro.scss';
 
@@ -32,7 +32,12 @@ export default function Intro() {
               </div>
             </div>
             <div className="mx-auto  text-center xl:mx-0">
-              <img src={Avatar} alt="Avatar" className="avatar w-52 sm:w-64 lg:w-72 xl:w-96" />
+              <img
+                loading="lazy"
+                src={Avatar}
+                alt="Avatar"
+                className="avatar w-52 sm:w-64 lg:w-72 xl:w-96"
+              />
             </div>
           </div>
         </div>
