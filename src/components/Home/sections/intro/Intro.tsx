@@ -1,8 +1,10 @@
 import { useTranslation } from 'react-i18next';
 
 import { Element } from 'react-scroll';
-import Avatar from './../../../../assets/images/avatar.png';
+import Avatar from './../../../../assets/images/spaceman_avatar.png';
 import CanadianFlag from './../../../../assets/images/flags/ca.png';
+
+import './Intro.scss';
 
 export default function Intro() {
   const { t } = useTranslation();
@@ -10,7 +12,7 @@ export default function Intro() {
     <Element name="intro">
       <div className="relative px-6 py-28 text-center text-white/60 md:px-12 lg:mt-32 lg:text-left">
         <div className="container mx-auto font-bold xl:px-32">
-          <div className="grid items-center gap-12 text-left md:grid-cols-2 md:text-right">
+          <div className="grid items-center gap-8 text-left md:grid-cols-2 md:text-right xl:gap-20">
             <div className="mt-4 xl:mt-0">
               <h1 className="mb-4 text-3xl tracking-tight text-white/60 md:text-4xl xl:text-5xl">
                 {t('intro.helloworld')}
@@ -30,7 +32,7 @@ export default function Intro() {
               </div>
             </div>
             <div className="mx-auto  text-center xl:mx-0">
-              <img src={Avatar} alt="Avatar" className="w-48 sm:w-72 xl:w-96" />
+              <img src={Avatar} alt="Avatar" className="avatar w-48 sm:w-72 xl:w-96" />
             </div>
           </div>
         </div>
