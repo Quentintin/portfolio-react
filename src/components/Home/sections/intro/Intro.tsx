@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 
 import { Element } from 'react-scroll';
-import Avatar from './../../../../assets/images/spaceman_avatar.png';
+import Avatar from './../../../../assets/images/spaceman_avatar.webp';
 import CanadianFlag from './../../../../assets/images/flags/ca.png';
 
 import './Intro.scss';
