@@ -1,8 +1,5 @@
 import './Footer.scss';
-//import Earth from './../../../assets/images/earth.png';
-//import EarthCatoon from './../../../assets/images/earth-cartoon.png';
-//import Moon from './../../../assets/images/moon.png';
-import MoonTintin from './../../../assets/images/moon_tintin.png';
+import MoonTintin from './../../../assets/images/moon_tintin.webp';
 
 export default function Footer() {
   return (

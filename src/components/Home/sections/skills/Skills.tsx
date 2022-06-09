@@ -10,11 +10,11 @@ export default function Skills() {
 
   return (
     <Element name="skills" className="my-8">
-      <div className="container mx-auto py-10">
+      <div className="container mx-auto xl:py-10">
         <section className="rounded-2xl bg-black/30 text-white">
-          <div className="px-4 py-8 sm:px-6 lg:px-8">
+          <div className="px-4 py-3  sm:py-4 sm:px-6 md:py-6 lg:px-8">
             <h1>{t('skills.title')}</h1>
-            <div className="my-5 grid grid-cols-1 gap-2 lg:grid-cols-2 lg:gap-6">
+            <div className="mt-5 mb-7 grid grid-cols-1 gap-2 lg:grid-cols-2 lg:gap-6">
               <div className="">
                 <h2>{t('skills.softs.title')}</h2>
                 <p className="text-white/80">

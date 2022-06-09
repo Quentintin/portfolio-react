@@ -1,7 +1,7 @@
 import i18n from '../../../config/i18n';
 
-import FrenchFlag from './../../../assets/images/flags/fr.png';
-import UnitedKingdomFlag from './../../../assets/images/flags/uk.png';
+import FrenchFlag from './../../../assets/images/flags/fr.webp';
+import UnitedKingdomFlag from './../../../assets/images/flags/uk.webp';
 
 export default function LanguageSwitcher() {
   const toggleLanguage = () => {
