@@ -19,13 +19,11 @@ export default function NavbarItem({
     <Link
       // Small hack to highlight lqst item in the navbar
       onClick={() => handleClick()}
-      activeClass={'bg-yellow-500/90 text-black hover:text-black hover:bg-yellow-500'}
+      activeClass={'bg-primary/90 text-black hover:text-white hover:bg-primary'}
       to={id}
       className={`${
-        isLast &&
-        isBottom &&
-        'bg-yellow-500/90 text-black hover:bg-yellow-500 hover:text-black'
-      }navbar-item mx-4 cursor-pointer rounded-xl px-4 py-2 font-semibold text-white/70 transition-all duration-300 ease-in hover:bg-white/5`}
+        isLast && isBottom && 'bg-primary/90 text-black hover:bg-primary hover:text-white'
+      } navbar-item mx-4 cursor-pointer rounded-xl px-4 py-2 font-semibold text-white/70 transition-all duration-300 ease-in hover:bg-white/5`}
       spy={true}
       offset={-100}
       smooth={true}

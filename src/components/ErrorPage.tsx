@@ -8,7 +8,7 @@ export default function ErrorPage() {
         <h1 className="tracking-tightest text-8xl font-black">404</h1>
         <h2
           className="tracking-tightest text-2xl
-         font-bold leading-3 text-yellow-500">
+         font-bold leading-3 text-primary">
           Page not found
         </h2>
         <p className="mt-5 text-xl">The page you are looking for does not exist.</p>

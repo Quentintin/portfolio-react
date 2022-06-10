@@ -17,7 +17,7 @@ export default function Intro() {
               <h1 className="mb-4 text-3xl tracking-tight text-white/60 md:text-4xl xl:text-5xl">
                 {t('intro.helloworld')}
                 <br />
-                <span className="text-5xl text-yellow-500 md:text-6xl xl:text-7xl">
+                <span className="text-5xl text-primary md:text-6xl xl:text-7xl">
                   Quentin Desbois
                 </span>
               </h1>
