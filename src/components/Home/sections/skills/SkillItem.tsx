@@ -16,7 +16,7 @@ export function SoftSkillIten({
 
   return (
     <div
-      className={`flex cursor-pointer flex-col items-center justify-center rounded-xl ${bgColor} p-6 duration-300 ease-in-out hover:scale-105`}>
+      className={`flex select-none flex-col items-center justify-center rounded-xl ${bgColor} p-6 duration-300 ease-in-out hover:scale-105`}>
       {/* Useless line permit to generate colors classes */}
       <div className="bg-blue-500/5 bg-red-500/5 bg-violet-500/5 bg-teal-500/5 text-red-200 text-red-500 text-blue-200 text-blue-500 text-violet-200  text-violet-500 text-teal-500 text-teal-200"></div>
       <div className="flex flex-col items-center justify-center">
@@ -40,7 +40,7 @@ export function TechSkillItem({
 }) {
   return (
     <div
-      className={`flex cursor-pointer items-start duration-300 ease-in-out hover:scale-105  ${color} `}>
+      className={`flex select-none items-start duration-300 ease-in-out hover:scale-105  ${color} `}>
       <span className={`flex-shrink-0 rounded-xl bg-white/20 p-3 text-2xl`}>{icon}</span>
 
       <div className="ml-4">
