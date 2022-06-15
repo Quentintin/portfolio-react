@@ -38,7 +38,6 @@ export function ProjectSmallCard({
 }
 
 export function ProjectDetails({ project, experience }: { project: any; experience: string }) {
-  const { t } = useTranslation();
   return (
     <div className="flex flex-col items-center ">
       <img
