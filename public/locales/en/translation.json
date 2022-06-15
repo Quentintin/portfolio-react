@@ -11,7 +11,72 @@
     "currently_based_in": "currently based in"
   },
   "experience": {
-    "title": "Experience"
+    "title": "Experience",
+    "current_job": "Current job",
+    "list": {
+      "wahi": {
+        "title": "Wahi - Brookfield",
+        "role": "Backend Javascript Developer",
+        "location": "Montreal, CANADA",
+        "company_description": "Support by Brookfield company, Wahi empowers homebuyers and sellers with an innovative and resourceful approach to real estate.",
+        "role_description": "Wahi is designed by nature as a modern and innovative solution. In this context, the main role of backend developer is to rely on cloud solutions to develop modern and efficient web applications.",
+        "projects": {}
+      },
+      "solem": {
+        "title": "Solem / Primal",
+        "role": "Fullstack Javascript Developer",
+        "location": "Montpellier, FRANCE",
+        "company_description": "Development and industrialization of connected objects for irrigation, swimming pools and telecare with 30 years of experience.",
+        "role_description": "Inside a team of 13 developers, I was in charge of developing web platforms linked to connected devices in domain of irrigation, pool and telecare. This experience was a way to improve good practices for me and my team, using new JS Standards and best integrations.",
+        "projects": {
+          "mysolem": {
+            "title": "MySolem",
+            "fullTitle": "<strong>MySolem</strong> platform",
+            "short_description": "Management of connected devices for irrigation",
+            "description": "MySolem is a management platform for connected devices for irrigation, for example, irrigation fields, public areas, golf courses, etc. It is developed using the <strong>SSR</strong> (Server Side Rendering) method, under the <strong>SailsJS</strong> framework. This fullstack framework is complete because it uses NodeJS to generate its API (with Express), its sockets and its access to <strong>MongoDb</strong> through its own ORM : <i>Waterline</i>."
+          },
+          "myindygo": {
+            "title": "MyIndygo",
+            "fullTitle": "<strong>MyIndygo</strong> platform",
+            "short_description": "Monitoring of connected pools",
+            "description": "MyIndygo is a new project to create business unit in the swimming pool sector. The platform is an extension of MySolem because the technical layer is very close. However, I was able to bring a more modern and more intuitive interface at the level of the front-office."
+          },
+          "myattentive": {
+            "title": "MyAttentive",
+            "fullTitle": "<strong>MyAttentive</strong> platform",
+            "short_description": "Management of connected devices for telecare",
+            "description": "Telecare services are complex because they must respond to many norms. Functionalally, the platform is very evolved, but due to technological debt, it is very expensive to develop new features. To solve a part of the problem, I have brought my experience on <i><strong>clean code</strong></i>, on the UI/UX, and the setup of <strong>pipelines CI/CD</strong>."
+          }
+        }
+      },
+      "atim": {
+        "title": "ATIM",
+        "role": "IT Manager",
+        "location": "Villard-de-Lans, FRANCE",
+        "company_description": "Design and manufacture of connected systems for IoT industry.",
+        "role_description": "Standing as unique developer in engineering team, I was in charge of the development of the Atim Cloud Wireless platform, considered as the missing link for the company to provide an end-to-end solution for the IoT industry, which is a growing industry in the world. The role was also filled of various tasks as software engineer, mobile developer, designer, etc. <br/><br/> Projects below are just a few of many projects.",
+        "projects": {
+          "acw": {
+            "title": "ACW Web",
+            "fullTitle": "<strong>Atim Cloud Wirless</strong> platform",
+            "short_description": "Web app to monitor and manage IoT devices",
+            "description": "This platform allow to manage and monitor connected devices to low-power networks as <strong>Sigfox</strong> or <strong>LoRaWAN</strong>.<br/>Frontend was designed with <strong>AngularJS</strong> and backend with <strong>NodeJS/Hapi</strong>. A particular effort has been made to setup a robust, stable and performant system in production."
+          },
+          "acw-mobile": {
+            "title": "ACW Mobile",
+            "fullTitle": "<strong>Atim Cloud Wirless</strong> Mobile App",
+            "short_description": "ACW Platform Android's mobile application",
+            "description": "Considered as a mobile client (Android) of the ACW platform, this project, made together with the student I supervised, was a draft offering only the simplest features limited to a read-only approach of sensors data (temperature, humidity, consumption, etc.)."
+          },
+          "ble-tracker": {
+            "title": "Low-Power Tracker",
+            "fullTitle": "Tracking app using <strong>Bluetooth Low Energy</strong> and <strong>LoRaWAN</strong>",
+            "short_description": "Logitistics material tracking application",
+            "description": "This project is a proof of concept (PoC) for the Carrefour company which wants to geolocate logistics material trucks on the whole France, with only Bluetooth Low Energy sensors and LoRaWAN network for to track the data.<br/>The main interest of this project is in the energy autonomy of the solution and the independence from the operated networks.<br/><br/>We also have been able to do a similar project with the Universitary Hospital of Grenoble city to track medical material by triangulation of LoRaWAN signal"
+          }
+        }
+      }
+    }
   },
   "skills": {
     "title": "Skills",
@@ -19,7 +84,7 @@
     "softs": {
       "title": "Soft",
       "versatility": {
-        "title": "Verstatility"
+        "title": "Versatility"
       },
       "knowledge": {
         "title": "Thirst of knowledge"
@@ -59,7 +124,7 @@
       },
       "git": {
         "title": "Git",
-        "description": "GitLab, GitHub, Bitbucket, and I use Gitkraken as GUI tool"
+        "description": "GitLab, GitHub, Bitbucket"
       },
       "iot": {
         "title": "IoT",
@@ -91,5 +156,54 @@
   },
   "contact": {
     "title": "Contact"
+  },
+  "global": {
+    "javascript": "Javascript",
+    "nodejs": "NodeJS",
+    "css": "HTML5 / CSS3",
+    "api": "API",
+    "react": "ReactJS",
+    "cloud": "Cloud",
+    "git": "Git",
+    "iot": "IoT",
+    "figma": "Figma",
+    "database": "Database",
+    "docker": "Docker",
+    "typescript": "TypeScript",
+    "sass": "Sass",
+    "less": "Less",
+    "bootstrap": "Bootstrap",
+    "tailwindcss": "TailwindCSS",
+    "jquery": "jQuery",
+    "ajax": "AJAX",
+    "mongodb": "MongoDB",
+    "redis": "Redis",
+    "mysql": "MySQL",
+    "mariadb": "MariaDB",
+    "cassandra": "Cassandra",
+    "gitlab": "GitLab",
+    "github": "GitHub",
+    "bitbucket": "Bitbucket",
+    "sails": "SailsJS",
+    "socketio": "SocketIO",
+    "express": "Express",
+    "hapi": "Hapi",
+    "joi": "Joi",
+    "rest": "RESTful",
+    "graphql": "GraphQL",
+    "java": "Java",
+    "cpp": "C++",
+    "android": "Android",
+    "ios": "iOS",
+    "qt": "Qt",
+    "nodered": "NodeRed",
+    "mqtt": "MQTT",
+    "angularjs": "AngularJS",
+    "nginx": "Nginx",
+    "wordpress": "WordPress",
+    "php": "PHP",
+    "photoshop": "Photoshop",
+    "bluetooth": "Bluetooth",
+    "labview": "LabVIEW"
   }
 }

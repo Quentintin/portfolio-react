@@ -3,7 +3,7 @@ import { IoSchool } from 'react-icons/io5';
 export default function EducationItem() {
   return (
     <li className="mb-12">
-      <span className="absolute -ml-4 flex h-8 w-8 items-center justify-center rounded-full bg-violet-500 text-xl shadow-sm ring-8 ring-gray-800">
+      <span className="absolute -ml-4 flex h-8 w-8 items-center justify-center rounded-full bg-secondary text-xl shadow-sm ring-8 ring-gray-800">
         <IoSchool />
       </span>
       <div className="ml-10 xl:ml-20">

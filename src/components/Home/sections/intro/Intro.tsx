@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 
 import { Element } from 'react-scroll';
 import Avatar from './../../../../assets/images/spaceman_avatar.webp';
-import CanadianFlag from './../../../../assets/images/flags/ca.png';
+import CanadianFlag from './../../../../assets/images/flags/ca.webp';
 
 import './Intro.scss';
 
@@ -17,7 +17,7 @@ export default function Intro() {
               <h1 className="mb-4 text-3xl tracking-tight text-white/60 md:text-4xl xl:text-5xl">
                 {t('intro.helloworld')}
                 <br />
-                <span className="text-5xl text-yellow-500 md:text-6xl xl:text-7xl">
+                <span className="text-5xl text-primary md:text-6xl xl:text-7xl">
                   Quentin Desbois
                 </span>
               </h1>
@@ -32,7 +32,12 @@ export default function Intro() {
               </div>
             </div>
             <div className="mx-auto  text-center xl:mx-0">
-              <img src={Avatar} alt="Avatar" className="avatar w-52 sm:w-64 lg:w-72 xl:w-96" />
+              <img
+                loading="lazy"
+                src={Avatar}
+                alt="Avatar"
+                className="avatar w-52 sm:w-64 lg:w-72 xl:w-96"
+              />
             </div>
           </div>
         </div>

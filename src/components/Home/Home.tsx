@@ -39,28 +39,28 @@ function Home() {
           data-aos="zoom-in-up"
           data-aos-duration="800"
           data-aos-once={true}
-          data-aos-anchor-placement="center-bottom">
+          data-aos-anchor-placement="top-bottom">
           <Experience />
         </div>
         <div
           data-aos="zoom-in-up"
           data-aos-duration="800"
           data-aos-once={true}
-          data-aos-anchor-placement="center-bottom">
+          data-aos-anchor-placement="top-bottom">
           <Projects />
         </div>
         <div
           data-aos="zoom-in-up"
           data-aos-duration="800"
           data-aos-once={true}
-          data-aos-anchor-placement="center-bottom">
+          data-aos-anchor-placement="top-bottom">
           <Education />
         </div>
         <div
           data-aos="zoom-in-up"
           data-aos-duration="800"
           data-aos-once={true}
-          data-aos-anchor-placement="center-bottom">
+          data-aos-anchor-placement="top-bottom">
           <Contact />
         </div>
       </div>

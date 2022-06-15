@@ -101,7 +101,7 @@ export default function Projects() {
                 </div>
 
                 <h5 className="mb-3 text-lg font-bold">Sun City</h5>
-                <div className="mb-3 flex items-center justify-center text-sm font-medium text-yellow-500 lg:justify-start">
+                <div className="mb-3 flex items-center justify-center text-sm font-medium text-primary lg:justify-start">
                   <svg
                     className="mr-2 h-4 w-4"
                     xmlns="http://www.w3.org/2000/svg"

@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  :root {
+    --color-primary: 255 190 0;
+    --color-secondary: 0 134 255;
+    /* ... */
+  }
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Rajdhani:wght@300;400;500;600;700&display=swap');
 html {
   min-height: 100%;
@@ -12,7 +20,6 @@ html {
     font-family: 'Manrope', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-display: optional;
 
     h1,
     h2,
@@ -21,13 +28,30 @@ html {
     }
 
     h1 {
-      @apply text-3xl font-bold text-yellow-500 md:text-4xl xl:text-5xl;
+      @apply text-3xl font-bold text-primary md:text-4xl xl:text-5xl;
     }
     h2 {
-      @apply text-xl font-bold uppercase text-yellow-500 md:text-2xl xl:text-2xl;
+      @apply text-xl font-bold uppercase text-secondary/70 md:text-2xl xl:text-2xl;
     }
     h3 {
-      @apply text-lg font-semibold text-violet-500 md:text-xl xl:text-2xl;
+      @apply text-lg font-semibold text-secondary md:text-xl xl:text-2xl;
     }
   }
+}
+
+.fade-enter {
+  opacity: 0;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-enter-active {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+}
+.fade-enter-active,
+.fade-exit-active {
+  transition: opacity 250ms;
 }
