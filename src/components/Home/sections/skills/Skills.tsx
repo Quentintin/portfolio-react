@@ -4,7 +4,7 @@ import './Skills.scss';
 
 import { SoftSkillIten, TechSkillItem } from './SkillItem';
 import global from '../../../../config/global';
-import Card from '../Card';
+import Card from '../../../common/Card';
 
 export default function Skills() {
   const { t } = useTranslation();

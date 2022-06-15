@@ -10,7 +10,72 @@
     "currently_based_in": "actuellement à"
   },
   "experience": {
-    "title": "Expérience"
+    "title": "Expérience",
+    "current_job": "En poste",
+    "list": {
+      "wahi": {
+        "title": "Wahi - Brookfield",
+        "role": "Développeur Backend Javascript",
+        "location": "Montréal, CANADA",
+        "company_description": "Soutenue par la socété Brookfield, Wahi offres aux acheteurs et aux vendeurs une approche innovante et ingénieuse de l'immobilier",
+        "role_description": "Wahi est concu comme une solution moderne est innovante. Dans ce contexte, le role de développeur backend est de s'appuyer sur les solutions cloud afin de développer des applications web modernes et performantes.",
+        "projects": {}
+      },
+      "solem": {
+        "title": "Groupe Solem - Primal",
+        "role": "Développeur Fullstack Javascript",
+        "location": "Montpellier, FRANCE",
+        "company_description": "Développement et industrialisation d'objets connectés pour l'irrigation, les piscines et la téléassistance avec 30 ans d'expérience",
+        "role_description": "Intégré au sein d'une équipe grandissante de 13 développeurs, j'étais principalement en charge du développement des plateformes web communicantes avec des objets connectés. Ce fût une bonne expérience pour améliorer mes bonnes pratiques ainsi que celles de l'équipe en proposant des réunions de veille technologique. ",
+        "projects": {
+          "mysolem": {
+            "title": "MySolem",
+            "fullTitle": "Plateforme <strong>MySolem</strong>",
+            "short_description": "Plateforme de pilotage d'objets connectés pour l'irrigation.",
+            "description": "MySolem est la plateforme de gestion des objets connectés pour l'irrigation notamment des exploitations agricoles, domaines publics, golfs, etc. Elle est développée en utilisant la méthode du <strong>SSR</strong> (Server Side Rendering) sous le framework <strong>SailsJS</strong>. Ce framework fullstack est complet car il utilise NodeJS pour generer son API avec Express, ses sockets et son accès <strong>MongoDb</strong> grâce à son propre ORM : <i>Waterline</i>."
+          },
+          "myindygo": {
+            "title": "MyIndygo",
+            "fullTitle": "Plateforme <strong>MyIndygo</strong>",
+            "short_description": "Plateforme de gestion de piscine connectée.",
+            "description": "MyIndygo naît d'un projet récent de créer une nouvelle entité dans le secteur de la piscine residentielle connectée. La plateforme est une extension de la plateforme d'irrigation MySolem car la couche technique est sensiblement la même. Cependant j'ai pu apporter un visuel plus moderne et une interface plus intuitive au niveau du front-office."
+          },
+          "myattentive": {
+            "title": "MyAttentive",
+            "fullTitle": "Plateforme <strong>MyAttentive</strong>",
+            "short_description": "Plateforme de téléassistance pour personnes agées.",
+            "description": "Le secteur de la téléassistance est complexe car il doit répondre à beaucoup de norme. Fonctionnellement, la plateforme est très évoluée, mais elle subi une très grosse dette technologique et il n'est pas simple d'apporter de nouvelles fonctionnalités. Pour résoudre une partie du problème, j'ai apporté mon expérience sur le <i><strong>clean code</strong></i>, sur l'UI/UX, ainsi que la mise en place de <strong>pipelines CI/CD</strong>."
+          }
+        }
+      },
+      "atim": {
+        "title": "ATIM",
+        "role": "Responsable Informatique",
+        "location": "Villard-de-Lans, FRANCE",
+        "company_description": "Conception et fabrication de systèmes connectés pour les industriels de l'IoT",
+        "role_description": "En tant qu'unique développeur, j'étais en charge de tâches aussi variées qu'intêressantes allant du développement d'application mobile, au développement logiciel de banc de test en passant par de l'infographie.<br/> Mais ma tâche principale était principalement de développer une plateforme web de gestion de parcs d'objets connectés au réseau de l'IoT : Sigfox et LoRaWAN.<br/><br/> Les projets ci-dessous ne sont que quelques exemples parmis tant de projets.",
+        "projects": {
+          "acw": {
+            "title": "ACW Web",
+            "fullTitle": "Plateforme <strong>Atim Cloud Wirless</strong>",
+            "short_description": "Plateforme de gestion et monitoring d'objets connectés",
+            "description": "Cette plateforme permet de gérer et de surveiller des objets connectés aux réseaux <strong>Sigfox</strong> et <strong>LoRaWAN</strong>.<br/> Développée en utilisant le framework <strong>AngularJS</strong> pour le frontend, et <strong>NodeJS/Hapi</strong> pour le backend, un effort particulier a éte porté sur la mise en place d'un système robuste, stable et performant en production."
+          },
+          "acw-mobile": {
+            "title": "ACW Mobile",
+            "fullTitle": "Application mobile <strong>Atim Cloud Wirless</strong>",
+            "short_description": "Application Android de la plateforme ACW",
+            "description": "Considérée comme un client mobile (Android) de la plateforme ACW, ce projet, réalisé conjointement avec l'etudiant en alternance que je supervisé, a éte une ebauche ne proposant que les fonctionnalités les plus simples se limitant à la lecture des données des capteurs (temperature, humidité, consommation, etc.)."
+          },
+          "ble-tracker": {
+            "title": "Tracker Low-Power",
+            "fullTitle": "Application de tracking <strong>Bluetooth Low Energy</strong> et <strong>LoRaWAN</strong>",
+            "short_description": "Application de tracking d'équipement logistique",
+            "description": "Ce projet est une preuve de concept (PoC) pour le groupe Carrefour qui souhaite géolocaliser des chariots logistiques sur la France entière, avec uniquement des capteurs de type <strong>Bluetooth Low Energy</strong> et le réseau low-power <strong>LoRaWAN</strong> pour remonter les données.<br/>L'intêret principal de ce projet réside dans l'autonomie énergétique de la solution et l'indépendance face aux réseaux opérés.<br/><br/>Nous avons également pu réaliser un projet similaire avec le CHU de Grenoble pour traquer du matériel médical par triangulation du signal LoRaWAN."
+          }
+        }
+      }
+    }
   },
   "skills": {
     "title": "Compétences",
