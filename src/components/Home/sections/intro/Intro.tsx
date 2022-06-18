@@ -10,7 +10,7 @@ export default function Intro() {
   const { t } = useTranslation();
   return (
     <Element name="intro">
-      <div className="relative mt-10 px-6 py-4 text-center text-white/60 md:mt-20 lg:mt-28 lg:px-12 lg:text-left xl:mt-32 xl:py-20">
+      <div className="relative mt-12 px-6 py-4 text-center text-white/60 md:mt-20 lg:mt-28 lg:px-12 lg:text-left xl:mt-32 xl:py-20">
         <div className="container mx-auto font-bold xl:px-32">
           <div className="grid items-center gap-12 text-left md:grid-cols-2 md:text-right xl:gap-20">
             <div className="mt-4 xl:mt-0">

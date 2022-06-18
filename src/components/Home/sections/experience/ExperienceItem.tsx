@@ -47,7 +47,7 @@ export default function ExperienceItem({ experience }: { experience: string }) {
   const exp = global.experiences.find((exp) => exp.id === experience);
   const projects = exp?.projects;
   const [selectedProject, setSelectedProject] = useState(
-    projects && projects.length ? projects[0] : { id: '', technos: [] },
+    projects && projects.length ? projects[0] : { id: '', technologies: [] },
   );
 
   const { t } = useTranslation();

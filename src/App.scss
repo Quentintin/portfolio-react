@@ -20,3 +20,17 @@
   }
   background: linear-gradient(180deg, rgb(10, 24, 49), #000000);
 }
+
+/********** ANIMATION **********/
+.fade-in {
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -54,8 +54,8 @@ export function ProjectDetails({ project, experience }: { project: any; experien
         <Trans
           i18nKey={`experience.list.${experience}.projects.${project.id}.description`}></Trans>
       </p>
-      <div className="flex flex-wrap items-center justify-center">
-        {project.technos.map((techno: string) => (
+      <div className="flex flex-wrap items-center justify-center text-sm">
+        {project.technologies.map((techno: string) => (
           <TechLabel key={techno} techno={techno} />
         ))}
       </div>
