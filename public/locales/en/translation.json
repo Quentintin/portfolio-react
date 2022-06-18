@@ -149,7 +149,59 @@
     }
   },
   "projects": {
-    "title": "Projects"
+    "title": "Projects",
+    "status": {
+      "in-progress": "In progress",
+      "completed": "Completed",
+      "hold": "Hold",
+      "unmaintained": "Unmaintained"
+    },
+    "list": {
+      "kangoo": {
+        "title": "Project Kangoo",
+        "status": "In progress",
+        "short_description": "Share your own items within a community such as your neighborhood, family members or colleagues",
+        "full_description1": "The Kangoo project is a web service for sharing objects between community members. Based on a freemium model, you can create sharing communities (districts, associations, clubs, companies, families) and reserve an object thanks to a planning system.",
+        "full_description2": "<i>The project is currently under development.</i>",
+        "full_description3": "",
+        "gallery": {}
+      },
+      "captainpeage": {
+        "title": "CaptainPéage",
+        "status": "Hold",
+        "short_description": "Free calcultor to save money on french highways.",
+        "full_description1": "<strong>CaptainPéage</strong> is a project initiated in 2020 in order to step into the world of <strong>open-source</strong> projects, but also to train me on the <strong>NextJS</strong> framework which uses <strong>React</strong> in the form of SSR (Server-Side Rendering). At the same time, I wanted to use the CSS framework: <strong>Tailwind</strong>.",
+        "full_description2": "<strong>CaptainPéage</strong> is an online service based on the following observation: <i>The toll highways have the particularity of not having a linear pricing, so it is not proportional to the number of kilometers traveled. Based on this observation, CaptainPéage offers a tool using the principle of splitting which consists of exiting at certain tolls on your route and re-entering again.</i><br/><br/>The interest of this service is therefore <i>economic</i> 💵.. It is the opposite of the telepeage solution : <strong>loose few time, but save money !</strong>",
+        "full_description3": "This is a great <strong>technological</strong> and <strong>human</strong> challenge. However, I stopped it because retrieving highway pricing data was not already available in open data.</br></br>I am currently in contact with the team of <strong>transport.data.gouv.fr</strong> that will keep me in touch of dataset opening to the public.",
+        "gallery": {
+          "maquette": "Prototype"
+        }
+      },
+      "tagdroid": {
+        "title": "TAGDroid",
+        "status": "Unmaintained",
+        "short_description": "Android app that provides real-time tram and bus timetables for Grenoble city.",
+        "full_description1": "Release as the first mobile app for Grenoble city public transport (TAG), TAGdroid provides real-time timetables for tramways and buses, but also other features such as news et current incidents on lines.<br/><br/>The free app has been download more than 30K times, counting 399 ratings with 217 reviews.",
+        "full_description2": "This is my first app project, allowing me to discover development in Java and POO principles, during my student years (2012). As it is a success, I kept on improve it on my free time.",
+        "full_description3": "Technically, data fetching consists of scraping a XML webservice page. Sadly, this page became deprecated when TAG disabled it for a new public API. I did not have moment to modify app to fit on new API. So, the app is no longer maintained since 2014",
+        "gallery": {
+          "icon": "Icon",
+          "banner": "Banner",
+          "press_article": "Press article",
+          "screenshot1": "Homepage",
+          "screenshot2": "Line scheme",
+          "screenshot3": "Station details",
+          "screenshot4": "Favorite stations",
+          "screenshot5": "Drawer menu",
+          "screenshot6": "Closest stations",
+          "screenshot7": "Map",
+          "screenshot8": "Map Satellite",
+          "screenshot9": "Traffic info",
+          "screenshot10": "News",
+          "screenshot11": "Ticket prices"
+        }
+      }
+    }
   },
   "education": {
     "title": "Education"
@@ -157,7 +209,15 @@
   "contact": {
     "title": "Contact"
   },
-  "global": {
+
+  "common": {
+    "technologies": "Technologies",
+    "status": "Status",
+    "date": "Date",
+    "location": "Location",
+    "description": "Description",
+    "gallery": "Gallery",
+
     "javascript": "Javascript",
     "nodejs": "NodeJS",
     "css": "HTML5 / CSS3",
@@ -204,6 +264,11 @@
     "php": "PHP",
     "photoshop": "Photoshop",
     "bluetooth": "Bluetooth",
-    "labview": "LabVIEW"
+    "labview": "LabVIEW",
+    "nextjs": "NextJS",
+    "aws": "AWS",
+    "gcp": "GCP",
+    "firebase": "Firebase",
+    "swagger": "Swagger"
   }
 }

@@ -11,7 +11,7 @@ export default function Experience() {
   const { t } = useTranslation();
 
   return (
-    <Element name="experience" className="my-8">
+    <Element name="experience" className="my-4 md:my-6 xl:my-8">
       <div className="container mx-auto">
         <Card>
           <h1>{t('experience.title')}</h1>

@@ -34,6 +34,11 @@ import {
   SiBitbucket,
   SiGithub,
   SiBluetooth,
+  SiAmazonaws,
+  SiFirebase,
+  SiNextdotjs,
+  SiSwagger,
+  SiTailwindcss,
 } from 'react-icons/si';
 
 import { FaDatabase, FaMicrochip } from 'react-icons/fa';
@@ -225,6 +230,31 @@ const technologies = [
     icon: <SiBluetooth />,
     color: 'blue-500',
   },
+  {
+    id: 'aws',
+    icon: <SiAmazonaws />,
+    color: 'orange-400',
+  },
+  {
+    id: 'nextjs',
+    icon: <SiNextdotjs />,
+    color: 'gray-400',
+  },
+  {
+    id: 'tailwindcss',
+    icon: <SiTailwindcss />,
+    color: 'teal-600',
+  },
+  {
+    id: 'swagger',
+    icon: <SiSwagger />,
+    color: 'green-600',
+  },
+  {
+    id: 'firebase',
+    icon: <SiFirebase />,
+    color: 'amber-500',
+  },
 ];
 
 const global = {
@@ -282,7 +312,7 @@ const global = {
       projects: [
         {
           id: 'mysolem',
-          technos: [
+          technologies: [
             'javascript',
             'nodejs',
             'rest',
@@ -298,7 +328,7 @@ const global = {
         },
         {
           id: 'myindygo',
-          technos: [
+          technologies: [
             'javascript',
             'nodejs',
             'rest',
@@ -314,7 +344,7 @@ const global = {
         },
         {
           id: 'myattentive',
-          technos: [
+          technologies: [
             'javascript',
             'nodejs',
             'rest',
@@ -337,7 +367,7 @@ const global = {
       projects: [
         {
           id: 'acw',
-          technos: [
+          technologies: [
             'javascript',
             'nodejs',
             'rest',
@@ -350,9 +380,51 @@ const global = {
             'nginx',
           ],
         },
-        { id: 'acw-mobile', technos: ['java', 'android', 'rest', 'bitbucket'] },
-        { id: 'ble-tracker', technos: ['java', 'android', 'bluetooth'] },
+        { id: 'acw-mobile', technologies: ['java', 'android', 'rest', 'bitbucket'] },
+        { id: 'ble-tracker', technologies: ['java', 'android', 'bluetooth'] },
       ],
+    },
+  ],
+
+  projects: [
+    {
+      id: 'tagdroid',
+      date: new Date(2013, 0, 1),
+      status_text: 'unmaintained',
+      status_color: 'violet',
+      technologies: ['java', 'android', 'rest'],
+      gallery: [
+        { id: 'icon', colSpan: 1 },
+        { id: 'banner', colSpan: 2 },
+        { id: 'press_article', colSpan: 3 },
+        { id: 'screenshot1', colSpan: 1 },
+        { id: 'screenshot2', colSpan: 1 },
+        { id: 'screenshot3', colSpan: 1 },
+        { id: 'screenshot4', colSpan: 1 },
+        { id: 'screenshot5', colSpan: 1 },
+        { id: 'screenshot6', colSpan: 1 },
+        { id: 'screenshot7', colSpan: 1 },
+        { id: 'screenshot8', colSpan: 1 },
+        { id: 'screenshot9', colSpan: 1 },
+        { id: 'screenshot10', colSpan: 1 },
+        { id: 'screenshot11', colSpan: 1 },
+      ],
+    },
+    {
+      id: 'captainpeage',
+      date: new Date(2020, 0, 1),
+      status_text: 'hold',
+      status_color: 'amber',
+      technologies: ['firebase', 'nextjs', 'tailwindcss'],
+      gallery: [{ id: 'maquette', colSpan: 6 }],
+    },
+    {
+      id: 'kangoo',
+      status_text: 'in-progress',
+      status_color: 'green',
+      date: new Date(2022, 0, 1),
+      technologies: ['aws', 'graphql', 'nextjs', 'tailwindcss', 'typescript', 'swagger'],
+      gallery: [],
     },
   ],
 };

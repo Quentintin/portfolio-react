@@ -10,11 +10,11 @@ export default function Skills() {
   const { t } = useTranslation();
 
   return (
-    <Element name="skills" className="my-8">
+    <Element name="skills" className="my-4 md:my-6 xl:my-8">
       <div className="container mx-auto xl:py-10">
         <Card>
           <h1>{t('skills.title')}</h1>
-          <div className="mt-5 mb-7 grid grid-cols-1 gap-2 lg:grid-cols-2 lg:gap-6">
+          <div className="mt-3 mb-5 grid grid-cols-1 gap-2 lg:grid-cols-2 lg:gap-6 xl:mt-5 xl:mb-7">
             <div className="">
               <h2>{t('skills.softs.title')}</h2>
               <p className="text-white/80">
@@ -36,7 +36,7 @@ export default function Skills() {
           </div>
 
           <h2>{t('skills.technical.title')}</h2>
-          <div className="mt-4 grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-12 lg:grid-cols-3">
+          <div className=" mt-4 grid grid-cols-2 gap-4  md:gap-8 lg:grid-cols-3">
             {global.tech_skills.map((skill) => (
               <TechSkillItem
                 key={skill.id}

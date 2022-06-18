@@ -14,7 +14,7 @@ export function SoftSkillIten({
   return (
     <div
       style={{ background: `${colors[color]['500']}22` }}
-      className={`flex select-none flex-col items-center justify-center rounded-xl p-6 duration-300 ease-in-out hover:scale-105`}>
+      className={`flex h-36 select-none flex-col items-center justify-center rounded-xl p-6 duration-300 ease-in-out hover:scale-105`}>
       {/* Useless line permit to generate colors classes */}
       <div className="flex flex-col items-center justify-center">
         <div className={`mb-2 text-4xl`} style={{ color: `${colors[color]['300']}` }}>
@@ -53,7 +53,7 @@ export function TechSkillItem({
       <div className="ml-4">
         <h4 className="text-md font-bold">{title}</h4>
 
-        <p className="mt-1 text-sm text-white/60">{description}</p>
+        <p className="xs:mt-1 text-xs text-white/60 sm:text-sm">{description}</p>
       </div>
     </div>
   );
