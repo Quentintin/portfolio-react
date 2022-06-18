@@ -36,7 +36,7 @@ export default function Skills() {
           </div>
 
           <h2>{t('skills.technical.title')}</h2>
-          <div className="mt-4 grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-12 lg:grid-cols-3">
+          <div className=" mt-4 grid grid-cols-2 gap-4  md:gap-8 lg:grid-cols-3">
             {global.tech_skills.map((skill) => (
               <TechSkillItem
                 key={skill.id}

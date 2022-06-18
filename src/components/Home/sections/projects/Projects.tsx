@@ -135,7 +135,7 @@ function ProjectCard({ project }: { project: any }) {
                   </div>
                   <Divider text={t(`common.description`)} />
 
-                  <div className="mb-8 grid grid-cols-2">
+                  <div className="mb-8 grid md:grid-cols-2">
                     <div>
                       <p className="text-left text-white/80">
                         <Trans i18nKey={`projects.list.${project.id}.full_description1`} />
@@ -146,9 +146,9 @@ function ProjectCard({ project }: { project: any }) {
                         </p>
                       )}
                     </div>
-                    <div className="px-8">
+                    <div className="order-first mb-8 px-8 md:order-none  md:mb-0">
                       <img
-                        className="h-auto w-full rounded-lg object-cover shadow-lg"
+                        className=" h-auto w-full rounded-lg object-cover shadow-lg"
                         src={`/images/projects/${project.id}/thumbnail.webp`}
                         alt="screenshot of project"
                       />
@@ -165,7 +165,7 @@ function ProjectCard({ project }: { project: any }) {
                       <Divider text={t(`common.gallery`)} />
                       <div className="galery">
                         <div className="col-span-1 col-span-3 col-span-2 col-span-4 col-span-5 col-span-6"></div>
-                        <div className="flex grid grid-cols-1 items-center gap-8 overflow-hidden md:grid-cols-2 xl:grid-cols-6">
+                        <div className="grid grid-flow-row items-center gap-8 overflow-hidden  md:grid-cols-2 xl:grid-cols-6">
                           {project.gallery.map((image: any) => (
                             <div className={`col-span-${image.colSpan || 1}`}>
                               <img

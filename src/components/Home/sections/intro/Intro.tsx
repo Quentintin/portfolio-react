@@ -12,7 +12,7 @@ export default function Intro() {
     <Element name="intro">
       <div className="relative mt-12 px-6 py-4 text-center text-white/60 md:mt-20 lg:mt-28 lg:px-12 lg:text-left xl:mt-32 xl:py-20">
         <div className="container mx-auto font-bold xl:px-32">
-          <div className="grid items-center gap-12 text-left md:grid-cols-2 md:text-right xl:gap-20">
+          <div className="grid items-center gap-12 text-center md:grid-cols-2  md:text-right xl:gap-20">
             <div className="mt-4 xl:mt-0">
               <h1 className="mb-4 text-3xl tracking-tight text-white/60 md:text-4xl xl:text-5xl">
                 {t('intro.helloworld')}
@@ -24,7 +24,7 @@ export default function Intro() {
               <div className=" tracking-wide text-white md:text-xl lg:text-xl xl:text-2xl">
                 {t('intro.role')}
               </div>
-              <div className="flex items-center md:justify-end">
+              <div className="flex items-center justify-center md:justify-end">
                 <div className="font-thin">
                   {t('intro.currently_based_in')} <span className="font-bold">Montréal</span>
                 </div>

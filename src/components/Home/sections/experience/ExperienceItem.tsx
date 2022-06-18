@@ -86,7 +86,7 @@ export default function ExperienceItem({ experience }: { experience: string }) {
           </p>
 
           {exp?.projects && exp?.projects.length > 0 && (
-            <div className="my-4 grid grid-cols-2 gap-4 xl:grid-cols-3">
+            <div className="my-4 grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">
               {exp?.projects.map((project) => (
                 <ProjectSmallCard
                   key={project.id}
@@ -102,7 +102,7 @@ export default function ExperienceItem({ experience }: { experience: string }) {
       </div>
       {selectedProject.id && (
         <div>
-          <div className="rounded-lg p-5 xl:ml-10">
+          <div className="rounded-lg md:p-5 xl:ml-10">
             <SwitchTransition>
               <CSSTransition
                 key={selectedProject.id}
