@@ -104,7 +104,56 @@
     }
   },
   "projects": {
-    "title": "Projets"
+    "title": "Projets",
+    "status": {
+      "in-progress": "En cours",
+      "completed": "Terminé",
+      "hold": "En pause",
+      "unmaintained": "Non maintenu"
+    },
+    "list": {
+      "kangoo": {
+        "title": "Projet Kangoo",
+        "short_description": "Partagez vos biens et empruntez au sein d'une communauté comme votre quartier, entreprise, association, famille, etc.",
+        "full_description1": "Le projet Kangoo est une plateforme de partage d’objets communautaires. Basé sur un modele freemium, vous pouvez créer des communautés de partage (quartier, associations, club, société, CSE,  famille) et réserver un objet grâce à un systeme de planification élaboré.",
+        "full_description2": "<i>Le projet est actuellement en cours de développement</i>",
+        "full_description3": "",
+        "gallery": {}
+      },
+      "captainpeage": {
+        "title": "CaptainPéage",
+        "short_description": "Outil de calcul gratuit qui permet de faire des économies sur les autoroutes de France.",
+        "full_description1": "<strong>CaptainPéage</strong> est un projet initié en 2020 afin de mettre un pied dans le monde des projets <strong>Open-source</strong>, mais également afin de me former sur le framework <strong>NextJS</strong> qui utilise <strong>React</strong> sous forme de SSR (Server-Side Rendering). Dans la même optique, je me suis également formé sur le framework CSS : <strong>Tailwind</strong>.",
+        "full_description2": "<strong>CaptainPéage</strong> est un service en ligne qui part du constat suivant : <i>Les autoroutes à péage ont la particularité de ne pas posséder une tarification linéaire, c'est-à-dire proportionelle au nombre de kilomètres parcourus. Partant de ce constat, CaptainPéage propose un outil qui permet de réduire le coût des péages en utilisant le principe de fractionnement qui consiste à sortir à certains péages sur votre trajet et rentrer à nouveau.</i><br/><br/>L'intérêt de ce service est donc <i>économique</i> 💵.. Il se présente comme l'exact opposé du Télépéage : <strong>perdez du temps, économisez de l'argent !</strong>",
+        "full_description3": "Ce projet est un beau challenge <strong>technologique</strong> et <strong>humain</strong>. Cependant, j'ai dû le mettre en pause car la récupération des données de tarification des autoroutes françaises n'est pas encore disponible en open data.</br></br>Je suis actuellement en contact avec l'équipe de <strong>transport.data.gouv.fr</strong> qui me tiendra informé de l'ouverture du jeu de données au public.",
+        "gallery": {
+          "maquette": "Maquette"
+        }
+      },
+      "tagdroid": {
+        "title": "TAGDroid",
+        "short_description": "Application Android qui permet d'obtenir les horaires des tramways et bus de l'agglomération Grenobloise en temps-réel.",
+        "full_description1": "Première application mobile pour les transports en commun de Grenoble (TAG), TAGdroid fournit les horaires temps-réel des tramways et des bus, mais également d'autres fonctionnalités complémentaires comme les actualités et les incidents sur les lignes.<br/><br/>L’application gratuite a été téléchargée plus de 30 000 fois par les usagers Grenoblois. Elle compte 399 notes dont 217 avis.",
+        "full_description2": "Il s'agit de ma première application Android qui m’a permis de mettre un pied dans le développement Java alors que j’étais étudiant en Licence 3 (2012). Forte de son succès, j’ai continué à l’améliorer sur mon temps libre.",
+        "full_description3": "Techniquement, la méthode de récupération des données consiste à scrapper une page  de webservice en XML. Malheureusement, cette page est devenue obsolète lorsque la TAG a désactivé le service au profit d’une API publique. Je n’ai pas pu trouver le temps de modifier mon application pour qu’elle s’interface avec l’API. L’application n’est donc plus maintenue depuis 2014.",
+        "gallery": {
+          "icon": "Icône",
+          "banner": "Bannière",
+          "press_article": "Article de presse",
+          "screenshot1": "Page d'accueil",
+          "screenshot2": "Ligne de tram",
+          "screenshot3": "Vue station",
+          "screenshot4": "Stations favorites",
+          "screenshot5": "Menu glissant",
+          "screenshot6": "A proximité",
+          "screenshot7": "Carte",
+          "screenshot8": "Satellite",
+          "screenshot9": "Info trafic",
+          "screenshot10": "Actualités",
+          "screenshot11": "Informations"
+        }
+      }
+    }
   },
   "education": {
     "title": "Études"
