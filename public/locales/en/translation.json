@@ -15,7 +15,7 @@
     "current_job": "Current job",
     "list": {
       "wahi": {
-        "title": "Wahi - Brookfield",
+        "title": "Wahi",
         "role": "Backend Javascript Developer",
         "location": "Montreal, CANADA",
         "company_description": "Support by Brookfield company, Wahi empowers homebuyers and sellers with an innovative and resourceful approach to real estate.",
@@ -201,7 +201,60 @@
     }
   },
   "education": {
-    "title": "Education"
+    "title": "Education",
+    "list": {
+      "master-eeats": {
+        "diploma": "Master",
+        "school": "UFR PHITEM",
+        "main_subject": "Electronics, Electrical Energy, Automation",
+        "acronym": "EEATS",
+        "university": "Joseph Fourier University",
+        "city": "Grenoble",
+        "country": "France",
+        "years": {
+          "istre": {
+            "name": "Master 2",
+            "subject": "Integration of Real-time Embedded Systems",
+            "acronym": "ISTRE",
+            "description": "1 year work/study at LIPHY Laboratory (CNRS)<br/>Subject : <i>Design and development of communication, and integration of an embedded system on a scientific device : <strong>Subglacior Project</strong></i>",
+            "details": "Publication in a scientif journal : <i>The SUBGLACIOR drilling probe: concept and design</i>",
+            "details_url": "https://www.cambridge.org/core/journals/annals-of-glaciology/article/subglacior-drilling-probe-concept-and-design/D1A962F743FA39C0CD80200C0118FE3A"
+          },
+          "etcom": {
+            "name": "Master 1",
+            "subject": "Électronique et Télécom",
+            "acronym": "ETCOM",
+            "description": "6 months internship at LIPHY Laboratory (CNRS)<br/>Subject : <i>Youth and development of an ultra-sensible spectrometer.</i>",
+            "details": "Publication in a scientific journal : <i>Intracavity Laser Absorption Spectroscopy of 13C16O2 near 734 nm</i>",
+            "details_url": "https://hal.archives-ouvertes.fr/hal-01005762/"
+          }
+        },
+        "description": "",
+        "details": ""
+      },
+      "licence3": {
+        "diploma": "License",
+        "school": "UFR PHITEM",
+        "main_subject": "Physics and Electrical Engineering",
+        "acronym": "Elec. Engineering",
+        "university": "Joseph Fourier University",
+        "city": "Grenoble",
+        "country": "France",
+        "description": "",
+        "details": "<strong>LabVIEW Associate Developer</strong> Certification"
+      },
+      "dut-geii2": {
+        "diploma": "DUT",
+        "school": "IUT1",
+        "main_subject": "Electrical Engineering and Industrial Computing",
+        "acronym": "GEII2",
+        "university": "Joseph Fourier University",
+        "city": "Grenoble",
+        "country": "France",
+        "description": "<strong>Electronics option</strong><br/>3 months internship at LEPMI Laboratory (CNRS)<br/>Subject : <i>Design of a scientific test bench control system in LabVIEW.</i>",
+        "details": ""
+      }
+    }
   },
   "contact": {
     "title": "Contact"
@@ -214,6 +267,7 @@
     "location": "Location",
     "description": "Description",
     "gallery": "Gallery",
+    "see": "See",
 
     "javascript": "Javascript",
     "nodejs": "NodeJS",

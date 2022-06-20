@@ -14,7 +14,7 @@
     "current_job": "En poste",
     "list": {
       "wahi": {
-        "title": "Wahi - Brookfield",
+        "title": "Wahi",
         "role": "Développeur Backend Javascript",
         "location": "Montréal, CANADA",
         "company_description": "Soutenue par la socété Brookfield, Wahi offres aux acheteurs et aux vendeurs une approche innovante et ingénieuse de l'immobilier",
@@ -22,7 +22,7 @@
         "projects": {}
       },
       "solem": {
-        "title": "Groupe Solem - Primal",
+        "title": "Groupe Solem / Primal",
         "role": "Développeur Fullstack Javascript",
         "location": "Montpellier, FRANCE",
         "company_description": "Développement et industrialisation d'objets connectés pour l'irrigation, les piscines et la téléassistance avec 30 ans d'expérience",
@@ -156,10 +156,71 @@
     }
   },
   "education": {
-    "title": "Études"
+    "title": "Études",
+    "list": {
+      "master-eeats": {
+        "diploma": "Master",
+        "school": "UFR PHITEM",
+        "main_subject": "Électronique, Électrotechnique, Automatique et Traitement du Signal",
+        "acronym": "EEATS",
+        "university": "Université Joseph Fourier",
+        "city": "Grenoble",
+        "country": "France",
+        "years": {
+          "istre": {
+            "name": "Master 2",
+            "subject": "Intégration des systèmes temps-réel",
+            "acronym": "ISTRE",
+            "description": "Alternance d'un an au laboratoire LIPHY (CNRS)<br/>Sujet : <i>Conception et développement de la communication, et intégration d’un système embarqué sur un dispositif scientifique : <strong>Projet Subglacior</strong></i>",
+            "details": "Parution dans une revue scientifique : <i>The SUBGLACIOR drilling probe: concept and design</i>",
+            "details_url": "https://www.cambridge.org/core/journals/annals-of-glaciology/article/subglacior-drilling-probe-concept-and-design/D1A962F743FA39C0CD80200C0118FE3A"
+          },
+          "etcom": {
+            "name": "Master 1",
+            "subject": "Électronique et Télécom",
+            "acronym": "ETCOM",
+            "description": "Stage de 6 mois au laboratoire LIPHY (CNRS)<br/>Sujet : <i>Jouvance et développement d'un spectromète ultra-sensible</i>",
+            "details": "Parution dans une revue scientifique : <i>Intracavity Laser Absorption Spectroscopy of 13C16O2 near 734 nm</i>",
+            "details_url": "https://hal.archives-ouvertes.fr/hal-01005762/"
+          }
+        },
+        "description": "",
+        "details": ""
+      },
+      "licence3": {
+        "diploma": "Licence",
+        "school": "UFR PHITEM",
+        "main_subject": "Physique et génie électrique",
+        "acronym": "Génie Elec.",
+        "university": "Université Joseph Fourier",
+        "city": "Grenoble",
+        "country": "France",
+        "description": "",
+        "details": "Certification <strong>LabVIEW Associate Developer</strong>"
+      },
+      "dut-geii2": {
+        "diploma": "DUT",
+        "school": "IUT1",
+        "main_subject": "Génie Électrique et Informatique Industrielle",
+        "acronym": "GEII2",
+        "university": "Université Joseph Fourier",
+        "city": "Grenoble",
+        "country": "France",
+        "description": "<strong>Option électronique</strong><br/>Stage de 3 mois au laboratoire LEPMI (CNRS)<br/>Sujet: <i>Conception d'un système de contrôle de banc de test en LabVIEW.</i>",
+        "details": ""
+      }
+    }
   },
   "contact": {
     "title": "Contact"
   },
-  "common": {}
+  "common": {
+    "technologies": "Technologies",
+    "status": "Statut",
+    "date": "Date",
+    "location": "Lieu",
+    "description": "Description",
+    "gallery": "Galerie",
+    "see": "Voir"
+  }
 }
