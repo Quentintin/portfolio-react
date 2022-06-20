@@ -19,7 +19,9 @@ export default function NavbarItem({
     <Link
       // Small hack to highlight lqst item in the navbar
       onClick={() => handleClick()}
-      activeClass={'bg-primary/90 text-black hover:text-white hover:bg-primary'}
+      activeClass={`${
+        isBottom || 'bg-primary/90 text-black hover:text-white hover:bg-primary'
+      }`}
       to={id}
       className={`${
         isLast && isBottom && 'bg-primary/90 text-black hover:bg-primary hover:text-white'

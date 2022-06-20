@@ -5,7 +5,7 @@ import { useTranslation, Trans } from 'react-i18next';
 import moment from 'moment';
 import i18n from '../../../../config/i18n';
 
-export default function EducationItem({ education }: any) {
+export default function EducationItem({ education }: { education: any }) {
   const { t } = useTranslation();
   moment.locale(i18n.language);
   return (
@@ -39,7 +39,9 @@ export default function EducationItem({ education }: any) {
             {t(`education.list.${education.id}.university`)}
           </p>
           {education.years?.map((year: string) => (
-            <div className="mb-5 border-l-4 border-l-secondary/50 pl-3 text-base font-normal text-white/80 lg:ml-1 lg:border-l-8 lg:pl-5">
+            <div
+              key={year}
+              className="mb-5 border-l-4 border-l-secondary/50 pl-3 text-base font-normal text-white/80 lg:ml-1 lg:border-l-8 lg:pl-5">
               <div className="flex items-center">
                 <h5 className=" font-black text-secondary">
                   {t(`education.list.${education.id}.years.${year}.name`)}
@@ -60,6 +62,7 @@ export default function EducationItem({ education }: any) {
                 <a
                   className="mx-2 rounded bg-secondary py-0.5 px-2 text-xs transition-all duration-300 ease-out hover:bg-secondary/80"
                   target={'_blank'}
+                  rel="noreferrer noopener"
                   href={t(`education.list.${education.id}.years.${year}.details_url`)}>
                   {t(`common.see`)}
                 </a>
