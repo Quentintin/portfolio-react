@@ -15,7 +15,7 @@
     "current_job": "Current job",
     "list": {
       "wahi": {
-        "title": "Wahi - Brookfield",
+        "title": "Wahi",
         "role": "Backend Javascript Developer",
         "location": "Montreal, CANADA",
         "company_description": "Support by Brookfield company, Wahi empowers homebuyers and sellers with an innovative and resourceful approach to real estate.",
@@ -159,7 +159,6 @@
     "list": {
       "kangoo": {
         "title": "Project Kangoo",
-        "status": "In progress",
         "short_description": "Share your own items within a community such as your neighborhood, family members or colleagues",
         "full_description1": "The Kangoo project is a web service for sharing objects between community members. Based on a freemium model, you can create sharing communities (districts, associations, clubs, companies, families) and reserve an object thanks to a planning system.",
         "full_description2": "<i>The project is currently under development.</i>",
@@ -168,7 +167,6 @@
       },
       "captainpeage": {
         "title": "CaptainPéage",
-        "status": "Hold",
         "short_description": "Free calcultor to save money on french highways.",
         "full_description1": "<strong>CaptainPéage</strong> is a project initiated in 2020 in order to step into the world of <strong>open-source</strong> projects, but also to train me on the <strong>NextJS</strong> framework which uses <strong>React</strong> in the form of SSR (Server-Side Rendering). At the same time, I wanted to use the CSS framework: <strong>Tailwind</strong>.",
         "full_description2": "<strong>CaptainPéage</strong> is an online service based on the following observation: <i>The toll highways have the particularity of not having a linear pricing, so it is not proportional to the number of kilometers traveled. Based on this observation, CaptainPéage offers a tool using the principle of splitting which consists of exiting at certain tolls on your route and re-entering again.</i><br/><br/>The interest of this service is therefore <i>economic</i> 💵.. It is the opposite of the telepeage solution : <strong>loose few time, but save money !</strong>",
@@ -179,11 +177,10 @@
       },
       "tagdroid": {
         "title": "TAGDroid",
-        "status": "Unmaintained",
         "short_description": "Android app that provides real-time tram and bus timetables for Grenoble city.",
         "full_description1": "Release as the first mobile app for Grenoble city public transport (TAG), TAGdroid provides real-time timetables for tramways and buses, but also other features such as news et current incidents on lines.<br/><br/>The free app has been download more than 30K times, counting 399 ratings with 217 reviews.",
         "full_description2": "This is my first app project, allowing me to discover development in Java and POO principles, during my student years (2012). As it is a success, I kept on improve it on my free time.",
-        "full_description3": "Technically, data fetching consists of scraping a XML webservice page. Sadly, this page became deprecated when TAG disabled it for a new public API. I did not have moment to modify app to fit on new API. So, the app is no longer maintained since 2014",
+        "full_description3": "Technically, data fetching consists of scraping a XML webservice page. Sadly, this page became deprecated when TAG disabled it for a new public API. I did not have moment to modify app to fit on new API. So, the app is no longer maintained since 2014.",
         "gallery": {
           "icon": "Icon",
           "banner": "Banner",
@@ -204,7 +201,60 @@
     }
   },
   "education": {
-    "title": "Education"
+    "title": "Education",
+    "list": {
+      "master-eeats": {
+        "diploma": "Master",
+        "school": "UFR PHITEM",
+        "main_subject": "Electronics, Electrical Energy, Automation",
+        "acronym": "EEATS",
+        "university": "Joseph Fourier University",
+        "city": "Grenoble",
+        "country": "France",
+        "years": {
+          "istre": {
+            "name": "Master 2",
+            "subject": "Integration of Real-time Embedded Systems",
+            "acronym": "ISTRE",
+            "description": "1 year work/study at LIPHY Laboratory (CNRS)<br/>Subject : <i>Design and development of communication, and integration of an embedded system on a scientific device : <strong>Subglacior Project</strong></i>",
+            "details": "Publication in a scientif journal : <i>The SUBGLACIOR drilling probe: concept and design</i>",
+            "details_url": "https://www.cambridge.org/core/journals/annals-of-glaciology/article/subglacior-drilling-probe-concept-and-design/D1A962F743FA39C0CD80200C0118FE3A"
+          },
+          "etcom": {
+            "name": "Master 1",
+            "subject": "Électronique et Télécom",
+            "acronym": "ETCOM",
+            "description": "6 months internship at LIPHY Laboratory (CNRS)<br/>Subject : <i>Youth and development of an ultra-sensible spectrometer.</i>",
+            "details": "Publication in a scientific journal : <i>Intracavity Laser Absorption Spectroscopy of 13C16O2 near 734 nm</i>",
+            "details_url": "https://hal.archives-ouvertes.fr/hal-01005762/"
+          }
+        },
+        "description": "",
+        "details": ""
+      },
+      "licence3": {
+        "diploma": "License",
+        "school": "UFR PHITEM",
+        "main_subject": "Physics and Electrical Engineering",
+        "acronym": "Elec. Engineering",
+        "university": "Joseph Fourier University",
+        "city": "Grenoble",
+        "country": "France",
+        "description": "",
+        "details": "<strong>LabVIEW Associate Developer</strong> Certification"
+      },
+      "dut-geii2": {
+        "diploma": "DUT",
+        "school": "IUT1",
+        "main_subject": "Electrical Engineering and Industrial Computing",
+        "acronym": "GEII2",
+        "university": "Joseph Fourier University",
+        "city": "Grenoble",
+        "country": "France",
+        "description": "<strong>Electronics option</strong><br/>3 months internship at LEPMI Laboratory (CNRS)<br/>Subject : <i>Design of a scientific test bench control system in LabVIEW.</i>",
+        "details": ""
+      }
+    }
   },
   "contact": {
     "title": "Contact"
@@ -217,6 +267,7 @@
     "location": "Location",
     "description": "Description",
     "gallery": "Gallery",
+    "see": "See",
 
     "javascript": "Javascript",
     "nodejs": "NodeJS",

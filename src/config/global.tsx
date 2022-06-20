@@ -427,6 +427,25 @@ const global = {
       gallery: [],
     },
   ],
+
+  education: [
+    {
+      id: 'master-eeats',
+      startDate: new Date(2012, 8),
+      endDate: new Date(2014, 8),
+      years: ['istre', 'etcom'],
+    },
+    {
+      id: 'licence3',
+      startDate: new Date(2011, 8),
+      endDate: new Date(2012, 5),
+    },
+    {
+      id: 'dut-geii2',
+      startDate: new Date(2009, 8),
+      endDate: new Date(2011, 5),
+    },
+  ],
 };
 
 export default global;
