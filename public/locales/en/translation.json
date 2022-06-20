@@ -257,7 +257,8 @@
     }
   },
   "contact": {
-    "title": "Contact"
+    "title": "Contact",
+    "email": "Email"
   },
 
   "common": {
