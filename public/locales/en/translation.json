@@ -23,7 +23,7 @@
         "projects": {}
       },
       "solem": {
-        "title": "Solem / Primal",
+        "title": "Solem",
         "role": "Fullstack Javascript Developer",
         "location": "Montpellier, FRANCE",
         "company_description": "Development and industrialization of connected objects for irrigation, swimming pools and telecare with 30 years of experience.",
@@ -45,7 +45,7 @@
             "title": "MyAttentive",
             "fullTitle": "<strong>MyAttentive</strong> platform",
             "short_description": "Management of connected devices for telecare",
-            "description": "Telecare services are complex because they must respond to many norms. Functionalally, the platform is very evolved, but due to technological debt, it is very expensive to develop new features. To solve a part of the problem, I have brought my experience on <i><strong>clean code</strong></i>, on the UI/UX, and the setup of <strong>pipelines CI/CD</strong>."
+            "description": "Telecare services are complex because they must respond to many norms. Functionally, the platform is very evolved, but due to technological debt, it is very expensive to develop new features. To solve a part of the problem, I have brought my experience on <i><strong>clean code</strong></i>, on the UI/UX, and the setup of <strong>pipelines CI/CD</strong>."
           }
         }
       },
@@ -58,13 +58,13 @@
         "projects": {
           "acw": {
             "title": "ACW Web",
-            "fullTitle": "<strong>Atim Cloud Wirless</strong> platform",
+            "fullTitle": "<strong>Atim Cloud Wireless</strong> platform",
             "short_description": "Web app to monitor and manage IoT devices",
             "description": "This platform allow to manage and monitor connected devices to low-power networks as <strong>Sigfox</strong> or <strong>LoRaWAN</strong>.<br/>Frontend was designed with <strong>AngularJS</strong> and backend with <strong>NodeJS/Hapi</strong>. A particular effort has been made to setup a robust, stable and performant system in production."
           },
           "acw-mobile": {
             "title": "ACW Mobile",
-            "fullTitle": "<strong>Atim Cloud Wirless</strong> Mobile App",
+            "fullTitle": "<strong>Atim Cloud Wireless</strong> Mobile App",
             "short_description": "ACW Platform Android's mobile application",
             "description": "Considered as a mobile client (Android) of the ACW platform, this project, made together with the student I supervised, was a draft offering only the simplest features limited to a read-only approach of sensors data (temperature, humidity, consumption, etc.)."
           },

@@ -258,11 +258,16 @@ const technologies = [
 ];
 
 const global = {
+  url: {
+    github: 'https://github.com/quentintin',
+    linkedin: 'https://linkedin.com/in/quentin-desbois',
+  },
+
   soft_skills: [
     {
       id: 'versatility',
       icon: <GiOctopus />,
-      color: 'blue',
+      color: 'teal',
     },
     {
       id: 'knowledge',
@@ -272,12 +277,12 @@ const global = {
     {
       id: 'creativity',
       icon: <GiPalette />,
-      color: 'red',
+      color: 'blue',
     },
     {
       id: 'resilience',
       icon: <GiThorHammer />,
-      color: 'teal',
+      color: 'red',
     },
   ],
   tech_skills: technologies.filter((tech) =>

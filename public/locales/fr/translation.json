@@ -10,41 +10,41 @@
     "currently_based_in": "actuellement à"
   },
   "experience": {
-    "title": "Expérience",
+    "title": "Expériences",
     "current_job": "En poste",
     "list": {
       "wahi": {
         "title": "Wahi",
         "role": "Développeur Backend Javascript",
         "location": "Montréal, CANADA",
-        "company_description": "Soutenue par la socété Brookfield, Wahi offres aux acheteurs et aux vendeurs une approche innovante et ingénieuse de l'immobilier",
-        "role_description": "Wahi est concu comme une solution moderne est innovante. Dans ce contexte, le role de développeur backend est de s'appuyer sur les solutions cloud afin de développer des applications web modernes et performantes.",
+        "company_description": "Soutenue par la société Brookfield, Wahi offre aux acheteurs et aux vendeurs de l'immobilier une approche innovante et ingénieuse",
+        "role_description": "Wahi est conçue comme une solution moderne et innovante. Dans ce contexte, le rôle du développeur backend est de s'appuyer sur les solutions cloud pour concevoir des applications web scalables et performantes.",
         "projects": {}
       },
       "solem": {
-        "title": "Groupe Solem / Primal",
+        "title": "Solem",
         "role": "Développeur Fullstack Javascript",
         "location": "Montpellier, FRANCE",
         "company_description": "Développement et industrialisation d'objets connectés pour l'irrigation, les piscines et la téléassistance avec 30 ans d'expérience",
-        "role_description": "Intégré au sein d'une équipe grandissante de 13 développeurs, j'étais principalement en charge du développement des plateformes web communicantes avec des objets connectés. Ce fût une bonne expérience pour améliorer mes bonnes pratiques ainsi que celles de l'équipe en proposant des réunions de veille technologique. ",
+        "role_description": "Intégré au sein d'une équipe grandissante de 13 développeurs, j'étais en charge du développement des plateformes web communicantes avec des objets connectés. Ce fut une belle expérience pour améliorer mes compétences ainsi que celles de l'équipe en proposant des réunions de veille technologique.",
         "projects": {
           "mysolem": {
             "title": "MySolem",
             "fullTitle": "Plateforme <strong>MySolem</strong>",
             "short_description": "Plateforme de pilotage d'objets connectés pour l'irrigation.",
-            "description": "MySolem est la plateforme de gestion des objets connectés pour l'irrigation notamment des exploitations agricoles, domaines publics, golfs, etc. Elle est développée en utilisant la méthode du <strong>SSR</strong> (Server Side Rendering) sous le framework <strong>SailsJS</strong>. Ce framework fullstack est complet car il utilise NodeJS pour generer son API avec Express, ses sockets et son accès <strong>MongoDb</strong> grâce à son propre ORM : <i>Waterline</i>."
+            "description": "MySolem est la plateforme de gestion des objets connectés pour l'irrigation notamment des exploitations agricoles, domaines publics, golfs, etc. Elle est développée en utilisant la méthode du <strong>SSR</strong> (Server Side Rendering) sous le framework <strong>SailsJS</strong>. Ce framework fullstack est complet car il utilise NodeJS pour générer son API avec Express, ses sockets et son accès <strong>MongoDb</strong> grâce à son propre ORM : <i>Waterline</i>."
           },
           "myindygo": {
             "title": "MyIndygo",
             "fullTitle": "Plateforme <strong>MyIndygo</strong>",
             "short_description": "Plateforme de gestion de piscine connectée.",
-            "description": "MyIndygo naît d'un projet récent de créer une nouvelle entité dans le secteur de la piscine residentielle connectée. La plateforme est une extension de la plateforme d'irrigation MySolem car la couche technique est sensiblement la même. Cependant j'ai pu apporter un visuel plus moderne et une interface plus intuitive au niveau du front-office."
+            "description": "MyIndygo naît d'un projet récent de créer une nouvelle entité dans le secteur de la piscine résidentielle connectée. Cette plateforme est une extension de la plateforme d'irrigation MySolem car la couche technique est sensiblement la même. Cependant j'ai pu apporter un visuel plus moderne et une interface plus intuitive au niveau du front-office."
           },
           "myattentive": {
             "title": "MyAttentive",
             "fullTitle": "Plateforme <strong>MyAttentive</strong>",
             "short_description": "Plateforme de téléassistance pour personnes agées.",
-            "description": "Le secteur de la téléassistance est complexe car il doit répondre à beaucoup de norme. Fonctionnellement, la plateforme est très évoluée, mais elle subi une très grosse dette technologique et il n'est pas simple d'apporter de nouvelles fonctionnalités. Pour résoudre une partie du problème, j'ai apporté mon expérience sur le <i><strong>clean code</strong></i>, sur l'UI/UX, ainsi que la mise en place de <strong>pipelines CI/CD</strong>."
+            "description": "Le secteur de la téléassistance est complexe car il doit répondre à beaucoup de normes. Fonctionnellement, la plateforme est très évoluée mais elle subit une très grosse dette technologique et il n'est pas simple d'apporter de nouvelles fonctionnalités. Pour résoudre une partie du problème, j'ai apporté mon expérience sur le <i><strong>clean code</strong></i>, sur l'UI/UX ainsi que la mise en place de <strong>pipelines CI/CD</strong>."
           }
         }
       },
@@ -53,25 +53,25 @@
         "role": "Responsable Informatique",
         "location": "Villard-de-Lans, FRANCE",
         "company_description": "Conception et fabrication de systèmes connectés pour les industriels de l'IoT",
-        "role_description": "En tant qu'unique développeur, j'étais en charge de tâches aussi variées qu'intêressantes allant du développement d'application mobile, au développement logiciel de banc de test en passant par de l'infographie.<br/> Mais ma tâche principale était principalement de développer une plateforme web de gestion de parcs d'objets connectés au réseau de l'IoT : Sigfox et LoRaWAN.<br/><br/> Les projets ci-dessous ne sont que quelques exemples parmis tant de projets.",
+        "role_description": "En tant qu'unique développeur, j'étais en charge de tâches aussi variées qu'intéressantes allant du développement d'application mobile, au développement logiciel de bancs de test en passant par de l'infographie.<br/> Cependant ma tâche principale était de développer une plateforme web permettant la gestion de parcs d'objets connectés aux réseaux de l'IoT : Sigfox et LoRaWAN.<br/><br/> Les projets ci-dessous ne sont que quelques exemples parmi tant de projets.",
         "projects": {
           "acw": {
             "title": "ACW Web",
-            "fullTitle": "Plateforme <strong>Atim Cloud Wirless</strong>",
+            "fullTitle": "Plateforme <strong>Atim Cloud Wireless</strong>",
             "short_description": "Plateforme de gestion et monitoring d'objets connectés",
-            "description": "Cette plateforme permet de gérer et de surveiller des objets connectés aux réseaux <strong>Sigfox</strong> et <strong>LoRaWAN</strong>.<br/> Développée en utilisant le framework <strong>AngularJS</strong> pour le frontend, et <strong>NodeJS/Hapi</strong> pour le backend, un effort particulier a éte porté sur la mise en place d'un système robuste, stable et performant en production."
+            "description": "Cette plateforme permet de gérer et de surveiller des objets connectés aux réseaux <strong>Sigfox</strong> et <strong>LoRaWAN</strong>.<br/> Développée en utilisant le framework <strong>AngularJS</strong> pour le frontend, et <strong>NodeJS/Hapi</strong> pour le backend, un effort particulier a été porté sur la mise en place d'un système robuste, stable et performant en production."
           },
           "acw-mobile": {
             "title": "ACW Mobile",
-            "fullTitle": "Application mobile <strong>Atim Cloud Wirless</strong>",
+            "fullTitle": "Application mobile <strong>Atim Cloud Wireless</strong>",
             "short_description": "Application Android de la plateforme ACW",
-            "description": "Considérée comme un client mobile (Android) de la plateforme ACW, ce projet, réalisé conjointement avec l'etudiant en alternance que je supervisé, a éte une ebauche ne proposant que les fonctionnalités les plus simples se limitant à la lecture des données des capteurs (temperature, humidité, consommation, etc.)."
+            "description": "Considérée comme un client mobile (Android) de la plateforme ACW, ce projet, réalisé conjointement avec l'étudiant en alternance que je supervisais, a été une ébauche ne proposant que les fonctionnalités les plus simples se limitant à la lecture des données des capteurs (température, humidité, consommation, etc.)."
           },
           "ble-tracker": {
             "title": "Tracker Low-Power",
             "fullTitle": "Application de tracking <strong>Bluetooth Low Energy</strong> et <strong>LoRaWAN</strong>",
             "short_description": "Application de tracking d'équipement logistique",
-            "description": "Ce projet est une preuve de concept (PoC) pour le groupe Carrefour qui souhaite géolocaliser des chariots logistiques sur la France entière, avec uniquement des capteurs de type <strong>Bluetooth Low Energy</strong> et le réseau low-power <strong>LoRaWAN</strong> pour remonter les données.<br/>L'intêret principal de ce projet réside dans l'autonomie énergétique de la solution et l'indépendance face aux réseaux opérés.<br/><br/>Nous avons également pu réaliser un projet similaire avec le CHU de Grenoble pour traquer du matériel médical par triangulation du signal LoRaWAN."
+            "description": "Ce projet est une preuve de concept (PoC) pour le groupe Carrefour qui souhaite géolocaliser des chariots logistiques sur la France entière, avec uniquement des capteurs de type <strong>Bluetooth Low Energy</strong> et le réseau low-power <strong>LoRaWAN</strong> pour remonter les données.<br/>L'intérêt principal de ce projet réside dans l'autonomie énergétique de la solution et l'indépendance face aux réseaux opérés.<br/><br/>Nous avons également pu réaliser un projet similaire avec le CHU de Grenoble pour traquer du matériel médical par triangulation du signal LoRaWAN."
           }
         }
       }
@@ -79,7 +79,7 @@
   },
   "skills": {
     "title": "Compétences",
-    "description": "Le métier de développeur web est une <strong>passion</strong>, mais c'est un métier <strong>difficile</strong> qui demande un <strong>apprentissage permanent</strong> et une <strong>remise en question</strong> constante. Avec <strong>7 années d'expériences</strong>, les qualités suivantes sont celles qui me décrivent le mieux :",
+    "description": "Le métier de développeur web est avant-tout une <strong>passion</strong> mais c'est aussi un métier qui demande un <strong>apprentissage permanent</strong> et une <strong>remise en question</strong> constante. Avec <strong>7 années d'expérience</strong> qui m'ont forgée, les qualités suivantes sont celles qui me décrivent le mieux :",
     "softs": {
       "title": "Humaines",
       "versatility": {
@@ -115,7 +115,7 @@
       "kangoo": {
         "title": "Projet Kangoo",
         "short_description": "Partagez vos biens et empruntez au sein d'une communauté comme votre quartier, entreprise, association, famille, etc.",
-        "full_description1": "Le projet Kangoo est une plateforme de partage d’objets communautaires. Basé sur un modele freemium, vous pouvez créer des communautés de partage (quartier, associations, club, société, CSE,  famille) et réserver un objet grâce à un systeme de planification élaboré.",
+        "full_description1": "Le projet Kangoo est une plateforme de partage d’objets communautaires. Basée sur un modèle freemium, vous pouvez créer des communautés de partage (quartier, association, club, société, CSE, famille) et réserver un objet grâce à un système de planification élaboré.",
         "full_description2": "<i>Le projet est actuellement en cours de développement</i>",
         "full_description3": "",
         "gallery": {}
@@ -125,7 +125,7 @@
         "short_description": "Outil de calcul gratuit qui permet de faire des économies sur les autoroutes de France.",
         "full_description1": "<strong>CaptainPéage</strong> est un projet initié en 2020 afin de mettre un pied dans le monde des projets <strong>Open-source</strong>, mais également afin de me former sur le framework <strong>NextJS</strong> qui utilise <strong>React</strong> sous forme de SSR (Server-Side Rendering). Dans la même optique, je me suis également formé sur le framework CSS : <strong>Tailwind</strong>.",
         "full_description2": "<strong>CaptainPéage</strong> est un service en ligne qui part du constat suivant : <i>Les autoroutes à péage ont la particularité de ne pas posséder une tarification linéaire, c'est-à-dire proportionelle au nombre de kilomètres parcourus. Partant de ce constat, CaptainPéage propose un outil qui permet de réduire le coût des péages en utilisant le principe de fractionnement qui consiste à sortir à certains péages sur votre trajet et rentrer à nouveau.</i><br/><br/>L'intérêt de ce service est donc <i>économique</i> 💵.. Il se présente comme l'exact opposé du Télépéage : <strong>perdez du temps, économisez de l'argent !</strong>",
-        "full_description3": "Ce projet est un beau challenge <strong>technologique</strong> et <strong>humain</strong>. Cependant, j'ai dû le mettre en pause car la récupération des données de tarification des autoroutes françaises n'est pas encore disponible en open data.</br></br>Je suis actuellement en contact avec l'équipe de <strong>transport.data.gouv.fr</strong> qui me tiendra informé de l'ouverture du jeu de données au public.",
+        "full_description3": "Ce projet est un beau challenge <strong>technologique</strong> et <strong>humain</strong>. Cependant, j'ai dû le mettre en pause car la récupération des données de tarification des autoroutes françaises n'est pas encore disponible en open-data.</br></br> Je suis actuellement en contact avec l'équipe de <strong>transport.data.gouv.fr</strong> qui me tiendra informé de l'ouverture du jeu de données au public.",
         "gallery": {
           "maquette": "Maquette"
         }
@@ -190,7 +190,7 @@
       "licence3": {
         "diploma": "Licence",
         "school": "UFR PHITEM",
-        "main_subject": "Physique et génie électrique",
+        "main_subject": "Physique et Génie Électrique",
         "acronym": "Génie Elec.",
         "university": "Université Joseph Fourier",
         "city": "Grenoble",
