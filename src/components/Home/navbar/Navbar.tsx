@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from './LanguageSwitcher';
 import NavbarItem from './NavbarItem';
 import { LinkedInButton, GithubButton } from './SocialButton';
+import global from '../../../config/global';
 
 export default function Navbar() {
   const [isTop, setIsTop] = useState(true);
@@ -76,8 +77,8 @@ export default function Navbar() {
       </div>
 
       <div className="flex items-center text-right">
-        <LinkedInButton url="https://www.linkedin.com/in/quentin-desbois/" />
-        <GithubButton url="https://github.com/quentintin" />
+        <LinkedInButton url={global.url.linkedin} />
+        <GithubButton url={global.url.github} />
         <VerticalDivider />
         <LanguageSwitcher />
       </div>
